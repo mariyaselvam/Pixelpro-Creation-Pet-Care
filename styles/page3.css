@@ -1045,6 +1045,7 @@
     text-decoration: none;
     color: inherit;
     display: block;
+    text-transform: capitalize;
 }
 
 .home3-footer-Category-links-checks{
@@ -2767,3 +2768,4 @@ input[type="checkbox"]{
     width: fit-content;
     padding: auto 50px auto auto !important;
 }
+

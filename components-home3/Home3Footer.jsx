@@ -54,12 +54,24 @@ const Home3Footer = () => {
                    </h4>
 
                    <ul className="home3-footer-quick-links-checks">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Archived</a></li>
-                    <li><a href="#">Author</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li>
+                      <Link to="/home3">Home</Link>
+                    </li>
+                    <li>
+                      <Link to="/aboutuspage">About</Link>
+                    </li>
+                    <li>
+                      <Link to="/blog-detail">Blog</Link>
+                    </li>
+                    <li>
+                      <Link to="/shop">Shop</Link>
+                    </li>
+                    <li>
+                      <Link to="/adopt-pets-page">Pages</Link>
+                    </li>
+                    <li>
+                      <Link to="/contactus">Contact</Link>
+                    </li>
                    </ul>
               </div>
               </div>
@@ -70,11 +82,14 @@ const Home3Footer = () => {
                   Category
                   </h4>
                   <ul className="home3-footer-Category-links-checks">
-                    <li><a href="#">Lifestyle</a></li>
-                    <li><a href="#">Technology</a></li>
-                    <li><a href="#">Travel</a></li>
-                    <li><a href="#">Business</a></li>
-                    <li><a href="#">Economy</a></li>
+                    <li><Link to="/blog-detail">Blog Detail</Link></li>
+                    <li><Link to="/adopt-pets-page">Adopt Pets Page</Link></li>
+                    <li><Link to="/sitters">sitters</Link></li>
+                    <li><Link to="/BlogListingpage">blog details</Link></li>
+                    {/* <li><Link to="/shop">Shop</Link></li> */}
+                    <li><Link to="/cameronwilliamsonpage">Sitter Details</Link></li>
+                    <li><Link to="/petsdetailpage">Pet Details</Link></li>
+                    <li><Link to="/home3shopdetailspage">Shop Details</Link></li>
                   </ul>
                 </div>
               </div>
@@ -100,7 +115,7 @@ const Home3Footer = () => {
              <div className="home3-logo-nd-privacy-policy">
                <div className="home3-footer-logo-and-cont-wrap">
                 <div className="home3-footer-logo-nd-copy-rights">
-                 <p>© 2023 Copyrights, All rights reserved. Design by <a href="#" className="copy-right-company"> catalinajose222</a></p>
+                 <p>© 2023 Copyrights, All rights reserved. Design by <a href="#" className="copy-right-company"> Pixelpro Creation</a></p>
                 </div></div>
 
                        <ul className="home3-privacy-policy">

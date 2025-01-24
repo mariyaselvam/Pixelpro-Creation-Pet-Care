@@ -87,7 +87,7 @@ const Home2Footer = () => {
                 </h4>
 
                 <form  ref={formRef} onSubmit={handleSubmit} action="">
-                <input className="home-2-footer-logo-Subscribe-input" name="message" type="text"  placeholder='Email here*'/>
+                <input className="home-2-footer-logo-Subscribe-input" name="message" type="text"  placeholder='Email here*' required/>
                 <button  type="submit" id="button" className="home-2-footer-btn">
                 {/* Send Now */}
                 {buttonText}
@@ -112,7 +112,7 @@ const Home2Footer = () => {
         </div>
 
         <div className="copy-rights-nd-terms-nd-conditions">
-            <h4>© 2023 Copyrights, All rights reserved. Design by <a href="#">catalinajose222</a></h4>
+            <h4>© 2023 Copyrights, All rights reserved. Design by <a href="#"> Pixelpro Creation</a></h4>
 
             <ul>
                 <li><a href="#">Terms of Use</a></li>
