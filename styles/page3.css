@@ -1,0 +1,2769 @@
+
+.home3-header{
+    background-color: #00272b;
+    color: white;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    z-index: 100;
+    transition: 0.4s ease;
+    left: 50%;
+    transform: translateX(-50%) translateY(0px);
+    top: 0px;
+}
+
+.home3-header .Home3NavPages-list  a{
+    color: black;
+}
+
+.page3-wrap .Home3NavPages-list a:hover{
+    color: #ff6900;
+}
+
+.page3-wrap .Home3NavPages-list a{
+    color: black;
+}
+
+.home3-header > .container .row>*{
+    padding: 0px;
+}
+
+.home3-header > .container{
+    max-width: 1400px;
+    width:90%;
+}
+
+.hide-nav{
+    transform:translateY(-100%);
+}
+
+.home3-header-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home3-header-nav-options{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.home3-header-nav-options > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+.home3-header-nav-options a:hover{
+    color: #ff6900;
+}
+
+.About-DC-Care-main-img{
+    -webkit-mask-image: url("../src/assets/home-3/AboutDogCare/green-blob.svg");
+    mask-image: url("../src/assets/home-3/AboutDogCare/green-blob.svg");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    height: 573px;
+}
+
+.Home-3-banner-sec{
+    background: url("../src/assets/home-3/header/banner-main-img.png");
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    height: 955px;
+    color: white;
+    position: relative;
+    margin-top: 90px;
+    padding-top: 238px;
+}
+
+.Home-3-banner-sec > .container{
+    max-width: 1400px;
+}
+
+.Home-3-banner-sec > .container .row>*{
+    padding: 0px;
+}
+
+@media (max-width:1400px) {
+    .Home-3-banner-sec{
+    background-size: cover;
+    background-position : right;
+    }
+}
+
+.Home-3-banner-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 86px;
+    margin-bottom: 30px;
+}
+
+.Home-3-banner-main-tit b{
+    color: #ff6900;
+}
+
+.primary-btn{
+    width: 129px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    border-radius: 30px 0px 30px 0px;
+    background-color: #ff6900;
+    display: grid;
+    color: white;
+    place-content: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.primary-btn:hover{
+    background-color: white;
+    border: 1px solid #ff6900;
+    color: #ff6900;
+}
+
+.secondary-btn{
+    width: 129px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    border-radius: 30px 0px 30px 0px;
+    background-color: transparent;
+    display: grid;
+    color: white;
+    place-content: center;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: background-color 0.4s ease-in-out ;
+}
+
+.secondary-btn:hover{
+    background-color: #ff6900;
+    border: 1px solid #ff6900;
+    color: white;
+}
+
+.banner-btn-wraper{
+    display: flex;
+    gap: 30px;
+}
+
+.About-DC-Care-cont-mini-tit , 
+.About-DC-Care-cont-mini-tit-1 ,
+.home3-What-We-Offer-mini-tit , 
+.Home3-The-pets-lives-day-mini-tit ,
+.home3-Testimonial-mini-tit{
+    font-family: "Nunito", serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 55px;
+    position: relative;
+}
+
+.About-DC-Care-cont-mini-tit > b ,
+.About-DC-Care-cont-mini-tit-1 > b,
+.home3-What-We-Offer-mini-tit > b , 
+.Home3-The-pets-lives-day-mini-tit > b , 
+.home3-Testimonial-mini-tit > b{
+     color: #ff6900;
+     position: relative;
+     font-weight: inherit;
+}
+
+.home3-Testimonial-mini-tit::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: url("../src/assets/home-3/about-page/mini-tit-before.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home3-What-We-Offer-mini-tit::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: url("../src/assets/home-3/about-page/mini-tit-before.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.About-DC-Care-cont-mini-tit-1::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: url("../src/assets/home-3/about-page/mini-tit-before.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.About-DC-Care-cont-mini-tit-1{
+    padding-left: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.About-DC-Care-cont-mini-tit::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: url("../src/assets/home-3/about-page/mini-tit-before.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    top: 5px;
+    left: 0px;
+}
+
+.home3-What-We-Offer-mini-tit {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.About-DC-Care-cont-mini-tit{
+    position: relative;
+}
+
+.home2-AboutUsPage-cont-tit,
+.Know-more-about-Berry-cont-main-tit{
+    position: relative;
+}
+
+.Know-more-about-Berry-cont-main-tit{
+    margin-bottom: 20px;
+}
+
+.Know-more-about-Berry-cont-wrap p{
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 30px;
+}
+
+.Know-more-about-Berry-cont-wrap{
+    padding: 0px 0px 0px 30px;
+}
+
+.Know-more-about-Berry-cont-main-tit > b{
+    font-weight: inherit;
+}
+
+.Know-more-about-Berry-cont-main-tit::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url("../src/assets/home-3/about-page/main-tit-before.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -20px;
+    left: -30px;
+}
+
+.home2-AboutUsPage-cont-tit::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url("../src/assets/home-3/about-page/main-tit-before.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -20px;
+    left: -30px;
+}
+
+.About-DC-Care-cont-main-tit{
+    font-family: "Nunito", serif;
+    margin: 0px 0px 30px;
+    padding-top: 59px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    max-width: 80%;
+}
+
+.About-DC-Care-cont-main-tit-1{
+    font-family: "Nunito", serif;
+    margin: 0px 0px 30px;
+    padding-top: 0px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    max-width: 80%;
+}
+
+.Home3-The-pets-lives-day-main-tit{
+    margin-bottom: 30px;
+    padding-top: 41px;
+}
+
+.home3-What-We-Offer-main-tit , 
+.home3-What-We-Offer-main-tit-1,
+.About-DC-Care-cont-main-tit-1 ,
+.Home3-The-pets-lives-day-main-tit , 
+.home3-Testimonial-main-tit,
+.home3-Testimonial-main-tit-blog{
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 55px;
+    color: black;
+}   
+
+.home3-What-We-Offer-main-tit-1{
+    margin-bottom: 4rem;
+}
+
+.home3-Testimonial-main-tit-blog{
+    margin-bottom: 0rem;
+}
+
+.home3-What-We-Offer-main-tit > b ,
+.About-DC-Care-cont-main-tit-1 > b,
+.Home3-The-pets-lives-day-main-tit > b , 
+.home3-Testimonial-main-tit > b , 
+.home3-Testimonial-main-tit-1 > b
+.home3-Testimonial-main-tit-blog{
+    color: #ff6900;
+    font-weight: inherit;
+}
+
+.About-DC-Care-cont-wrap{
+    padding: 107px 0px 0px;
+}
+
+.About-DC-Care-sec .About-DC-Care-cont-wrap{
+    padding: 74px 0px 0px;
+}
+
+.About-DC-Care-cont-wrap > p{
+    margin-bottom: 30px;
+}
+
+.About-DC-Care-cont-main-tit > b{
+    color:#ff6900;
+}
+
+.About-DC-Care-sec{
+    padding: 100px 0rem;
+    overflow-x: hidden;
+}
+
+
+.home2-AboutUsPage-sec  .home2-SafeaAndGoodHands-cont > p{
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.About-DC-Care-sec .About-DC-Care-cont-mini-tit::before{
+  top: 0%;
+}
+
+.About-DC-Care-sec > .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+.About-DC-Care-sec .secondary-btn{
+    border: 1px solid #ff6900;
+    color: #ff6900;
+}
+
+.moveing-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.About-DC-Care-sec .secondary-btn:hover{
+    border: 1px solid #ff6900;
+    color: white;
+    background-color: #ff6900;
+}
+
+.home3-What-We-Offer-card > p{
+    margin-bottom: 0px;
+}
+
+.home3-What-We-Offer-card-tit{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    margin: 20px 0px 30px;
+}
+
+.home3-What-We-Offer-card{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #ff6900;
+    border-radius: 50px 0px 50px 0px;
+    transition: border-radius 0.5s ease-in-out , background 0.5s ease-in-out ;
+    transform: rotateY(0deg);
+    margin-top: 30px;
+    /* height: 336px; */
+}
+
+.home3-What-We-Offer-card:hover{
+    border-radius: 60px;
+    background-color: #ff6900;
+    color: white;
+}
+
+.home3-What-We-Offer-card:hover p{
+    color: white;
+}
+
+.home3-What-We-Offer-card:hover .home3-What-We-Offer-card-icon{
+    background: white;
+}
+
+.home3-What-We-Offer-card:hover .home3-What-We-Offer-card-icon img{
+    filter: brightness(0) saturate(100%) invert(41%) sepia(54%) saturate(2100%) hue-rotate(1deg) brightness(103%) contrast(104%);
+}
+
+.page3-wrap .home3-What-We-Offer-sec{
+    padding: 98px 0px 100px;
+    background-color: #f1f1f1;
+}
+
+ .home3-What-We-Offer-sec{
+    padding: 98px 0px 100px;
+    background-color: white;
+}
+
+.home3-What-We-Offer-sec-1{
+    background-color: white;
+}
+
+.home3-What-We-Offer-sec > .container{
+    max-width: 1400px;
+}
+
+.home3-What-We-Offer-tit-wraper , 
+.home3-Testimonial-tit-wraper{
+    width: 60%;
+    margin: 0rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home3-What-We-Offer-tit-wraper > p{
+   margin-bottom: 43px;
+} 
+
+.home3-Testimonial-tit-wraper{
+    margin: 0rem auto 80px;
+}
+
+.home3-What-We-Offer-card-icon{
+    background: linear-gradient( 90deg , #d15700 50% ,  #ff6900 50%);
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    transition:  transform 0.2s ease-in-out; 
+}
+
+.Home3-The-pets-lives-day-sec{
+    padding: 100px 0px;
+}
+
+.Home3-The-pets-lives-day-sec .container{
+    max-width: 1400px;
+}
+
+.Home3-The-pets-lives-day-sec .secondary-btn{
+    width: 129px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    border-radius: 30px 0px 30px 0px;
+    background-color: transparent;
+    display: grid;
+    color: #ff6900;
+    place-content: center;
+    text-decoration: none;
+    border: 1px solid #ff6900;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.Home3-The-pets-lives-day-cont-wrap{
+    padding: 3rem 0rem;
+}
+
+.Home3-The-pets-lives-day-cont-wrap p{
+    margin-bottom: 30px;
+}
+
+.Home3-The-pets-lives-day-sec  .secondary-btn:hover{
+    background-color: #ff6900;
+    color: white;
+}
+
+.Image-Tour-img-wrap-col-1{
+        display: grid;
+        grid-template-columns:   auto auto auto auto auto ;
+        grid-template-rows:  304px 182px 248px 284px;
+        gap: 30px;
+        justify-content: center;
+}
+
+@media (max-width:1400px){
+    .Image-Tour-img-wrap-col-1{
+        display: grid;
+        grid-template-columns:   auto auto auto auto auto ;
+        grid-template-rows:  auto auto auto auto;
+        gap: 10px;
+        justify-content: center;
+   }
+}
+
+.Image-Tour-sec .container{
+   max-width: 1400px;
+   margin: 0rem auto;
+}
+
+.Image-Tour-sec{
+    padding: 0px 0px 100px ;
+}
+
+.Image-Tour-imgs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.Tourimg2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.Tourimg4{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.Tourimg5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.Tourimg6{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.Tourimg9{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.Tourimg7{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.Image-Tour-img-wrap{
+    width: 100% ;
+}
+
+.Home3-Testimonial-sec .swiper-3d .swiper-slide-shadow-left{
+    background-image: none;
+}
+
+.Home3-Testimonial-sec .swiper-3d .swiper-slide-shadow-right{
+    background-image: none;
+}
+.Home3-Testimonial-sec .swiper-slide{
+    transition: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1);
+}
+
+.Home3-Testimonial-sec .swiper-button-next, .swiper-button-prev{
+    width: 60px;
+    background-color: #ff6900;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+}
+
+.Home3-Testimonial-swiper-wraper{
+    padding: 0px !important;
+}
+
+.Home3-Testimonial-sec .swiper-button-prev:after, 
+.swiper-button-next:after{
+    font-size: 20px;
+}
+
+.Home3-Testimonial-sec{
+    padding: 3rem 0rem;
+    background-color: #f1f1f1;
+}
+
+
+.react-fancybox .box .image-box{
+    padding: 0px;
+    background-color: transparent;
+}
+
+.image-box .close-btn{
+    
+}
+
+.react-fancybox .close-btn{
+    right: -50px;
+    top: -50px;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+}
+
+.Home3-Testimonial-sec .container{
+    max-width: 1400px;
+    padding: 0px;
+    width: 90%;
+}
+
+.Home3-Testimonial-sec .swiper-pagination-clickable .swiper-pagination-bullet{
+    width: 50px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #ff6900;
+}
+.Home3-Testimonial-sec .swiper-3d .swiper-wrapper{
+    padding-bottom: 100px;
+}
+
+.Home3-Testimonial-sec .swiper-slide{
+    width: 100%;
+    height: fit-content;
+}
+
+.Home3-Testimonial-card-rating{
+    width: 150px;
+    height: 30px;
+    margin: 0rem auto;
+}
+
+.Home3-Testimonial-sec-card{
+    text-align: center;
+    background: url("../src/assets/home-3/Home3TestimonialCard/testi-card-bg.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+    width: 450px;
+    margin: 0rem auto;
+}
+
+.Home3-Testimonial-card-profile{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 265px;
+    height: 265px;
+    margin: 1rem auto;
+}
+
+.Home3-Testimonial-card-profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Home3-Testimonial-card-tit{
+    color: white;
+    position: relative;
+    padding-left: 2rem;
+    width: fit-content;
+    margin: 0px auto 20px;
+    font-family: "Nunito";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+.Home3-Testimonial-card-tit::before{
+    content: "";
+    position: absolute;
+    background: url("../src/assets/home-3/Home3TestimonialCard/home3-testimonial-thump.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 27px;
+    height: 27px;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Home3-Testimonial-profile-name{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    margin: 0px;
+}
+
+.Home3-Testimonial-profile{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ff6900;
+    margin: 0px 0px 15px;
+    display: block; 
+}
+
+.home-3-blog-card{
+    background-color: #f1f1f1;
+    padding: 20px 21px;
+    border-radius: 20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+.home-3-blog-card p{
+    margin-bottom: 22px;
+}
+
+.home-3-blog-card:hover{
+    color: black;
+}
+
+.home-3-blog-card > img{
+    width: 100%;
+}
+
+.home-3-blog-mini-tit{
+    padding: 5px 12px;
+    display: block;
+    width: fit-content;
+    background-color: #e7772833;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ff6900;
+    transition: 0.4s ease;
+    margin-bottom: 18px;
+    text-decoration: none;
+}
+
+.home-3-blog-mini-tit:hover{
+    background-color: #ff6900;
+    color: white;
+}
+
+.home-3-blog-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 22px;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.home-3-blog-main-tit:hover{
+    color: #ff6900;
+}
+
+.home-3-blog-author-name-nd-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-3-blog-author-name-nd-date a{
+    color: inherit;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.home-3-blog-author-name-nd-date a:hover{
+     color: #FF6900;
+}
+
+.home-3-blog-author-name-nd-date img{
+    width: 41px;
+    height: 41px;
+}
+
+.home-3-blog-author-name-nd-date  p{
+     position: relative;
+     padding-left: 30px;
+}
+
+.home-3-blog-author-name-nd-date p{
+     margin: 0px;
+}
+
+.home-3-blog-author-name-nd-date p::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url("../src/assets/home-3/home3-pet-detail-page/calendar.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-3-blog-author-name-nd-date div h4{
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+}
+
+.home-3-blog-author-name-nd-date > div{
+    display: flex;
+    align-items: center;
+}
+
+.home-3-blog-author-name-nd-date div a{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.home-3-blog-author-name-nd-date *{
+    margin: 0rem;
+}
+
+.home3-Our-Blogs-sec{
+    padding: 100px 0rem;
+    overflow-x: hidden;
+}
+
+.home3-Our-Blogs-sec .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+
+.home3-Our-Blogs-btn{
+    margin: 0rem auto;
+    margin: 20px auto 0px;
+}
+
+.Home3-footer-sec{
+    padding: 100px 0px;
+    background-color: #00272b;
+    position: relative;
+}
+
+.Home3-footer-sec .container{
+    max-width: 1216px;
+}
+
+
+.Home3-footer-sec{
+    color: white;
+}
+
+.Home3-footer-sec a{
+    transition: 0.4s ease;
+}
+
+.Home3-footer-sec *{
+    color: white;
+}
+
+.home3-footer-Weekly-Newsletter-btn{
+    display: grid;
+    background-color: #d15700;
+    border-radius: 0px 30px;
+    height: 50px;
+    place-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+    transition: 0.4s ease;
+    width: 100%;
+    border: none;
+}
+
+.home3-footer-Weekly-Newsletter-btn:hover{
+    background-color: white;
+    border: 1px solid #ff6900;
+    color: #ff6900;
+}
+
+.home3-footer-Weekly-Newsletter-wrap{
+    background-color: #ffffff1a;
+    padding: 32px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.home3-footer-Weekly-Newsletter-wrap > p{
+   margin: 30px 0px;
+}
+
+.home3-footer-Weekly-Newsletter-input{
+    background-color: #00000066;
+    display: block;
+    width: 100%;
+    height: 54px;
+    outline: none;
+    border: none;
+    padding: 0.6rem 4rem 1rem 2rem ;
+    margin: 8px 0px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.home3-footer-Weekly-Newsletter-input-wrap{
+    position: relative;
+    position: relative;
+}
+
+.home3-footer-Weekly-Newsletter-input-wrap a{
+    height: 100%;
+    width: 40px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
+
+.home3-footer-Weekly-Newsletter-input-wrap::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url("../src/assets/home-3/footer/footer-mail-icon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+}
+
+.home3-footer-Weekly-Newsletter-input::placeholder{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.home3-footer-quick-links-checks{
+    padding: 0px;
+    list-style: none;
+}
+
+.home3-footer-quick-links-checks li a{
+    margin-bottom: 8px;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.home3-footer-quick-links-checks li a:hover{
+    color: white;
+}
+
+.home3-footer-Category-links-checks li a:hover{
+    color: white ;
+}
+
+.home3-footer-Category-links-checks li a{
+    margin-bottom: 8px;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.home3-footer-Category-links-checks{
+    list-style: none;
+    padding: 0px;
+}
+
+.home3-footer-Category-links-tit  , 
+.home3-footer-quick-links-tit , 
+.home3-footer-abt-cont-tit{
+    margin-bottom: 28px;
+}
+
+.home3-footer-abt-cont p{
+  color: #97989f;
+}
+
+.home3-footer-abt-cont a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.home3-footer-abt-cont a:hover{
+    color: white;
+}
+
+.home3-footer-quick-links-checks li{
+    color: #97989f;
+}
+
+.home3-footer-Category-links-checks li{
+    color: #97989f;
+}
+
+.Home3-Detail-Banner-sec{
+    background: url("../src/assets/home-3/blog-detail-page/home3-detail-banner.png");
+    height: 580px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: relative;
+    margin-top: 90px;
+}
+
+.Home3-Detail-Banner-tit-wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+.Home3-Detail-Banner-nav{
+    display: flex;
+    padding: 0rem ;
+    margin: 0rem;
+    list-style: none;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    background-color: #0000006e;
+    border-top: 5px solid #ff6900;
+    padding: 1px 26px;
+    width: fit-content;
+    margin: 0rem auto;
+}
+
+.Home3-Detail-Banner-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 76px;
+}
+
+.Home3-Detail-Banner-main-tit:last-child{
+    color: #ebff00;
+}
+
+.Home3-Detail-Banner-nav li:last-child{
+    color: #ebff00;
+}
+
+.gender-nd-age{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: grid;
+    gap: 13px;
+    margin-bottom: 25px;
+}
+
+.Gender{
+    position: relative;
+    padding-left: 60px;
+}
+
+.Gender::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url("../src/assets/home-3/Home3-Adopt-Pets/pet-gender.svg");
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+    background-color: white;
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg) ;
+    transition: 0.4s ease;
+}
+
+.pet-Age{
+    position: relative;
+    padding-left: 60px;
+}
+
+.pet-Age::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url("../src/assets/home-3/Home3-Adopt-Pets/pets-age.svg");
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+    background-color: white;
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    transition: 0.4s ease ;
+}
+
+.gender-nd-age > li > p{
+    margin: 0px;
+    font-family: "Nunito", serif;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 44px;
+    
+}
+
+.gender-nd-age > li > span{
+    font-family: "Nunito", serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+    color: #ff6900;
+}
+
+.gender-nd-age > li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Home3-Adopt-Pets-Page-sec-card:hover .Gender::before{
+    transform:  translateY(-50%) rotateY(360deg);
+}
+
+.Home3-Adopt-Pets-Page-sec-card:hover .pet-Age::before{
+    transform:  translateY(-50%) rotateY(360deg);
+}
+
+.Home3-Adopt-Pets-Page-sec-card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.151);
+}
+
+.Home3-Adopt-Pets-Page-sec-card{
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    position: relative;
+    margin: 110px 0px 30px;
+    padding: 140px 30px 30px;
+    transition: 0.4s ease-in-out ;
+}
+
+.Home3-Adopt-Pets-main-img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    top: 0%;
+    width: 238px;
+    height: 219px;
+    -webkit-mask-image: url("../src/assets/home-3/Home3-Adopt-Pets/Adopt-layer.svg");
+    mask-image: url("../src/assets/home-3/Home3-Adopt-Pets/Adopt-layer.svg");
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+}
+
+.Pets-Detail-Page-Know-more-about-card-img{
+    -webkit-mask-image: url("../src/assets/home-3/Home3-Adopt-Pets/Adopt-layer.svg");
+    mask-image: url("../src/assets/home-3/Home3-Adopt-Pets/Adopt-layer.svg");
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+}
+
+.Pets-Detail-Page-Know-more-about-card{
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.Home3-Adopt-Pets-Page-sec{
+    padding: 100px 0rem 70px;
+    overflow-x: hidden;
+}
+
+.Home3-Adopt-Pets-Page-sec > .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+.Home3-Adopt-Pets-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 17px;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.4s ease;
+}
+
+.Home3-Adopt-Pets-main-tit:hover{
+    color: #FF6900;
+}
+
+.Home3-Adopt-Pets-main-btn{
+    width: 137px;
+    height: 50px;
+    border-radius: 30px 0px;
+    display: grid;
+    place-content: center;
+    background-color:#ff6900;
+    color: white;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-decoration: none;
+    margin: 0rem auto;
+    transition: 0.4s ease-in-out;
+}
+
+.Home3-Adopt-Pets-main-btn:hover{
+    border: 1px solid #d15700;
+    color: #d15700;
+    background-color: white;
+}
+
+.Home3-Pet-SItters-listing-cards-sec{
+    padding: 100px 0rem 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Home3-Pet-SItters-listing-cards-sec > .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+.Home3-Pet-SItters-listing-cards{
+    margin-bottom: 100px;
+}
+
+.Home3-Pet-SItters-listing-social-medias{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.What-Our-Customer-Say-swiper-card::before{
+    content: "";
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background: url("../src/assets/home-2/WhatOurCustomerSay/quates.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 40px;
+    top: 40px;
+}
+
+.What-Our-Customer-Say-swiper-card{
+    background-color: #00376b;
+    position: relative;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.Home3-Pet-SItters-listing-span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0px 0px 20px;
+    display: block;
+    color: #ff6600;
+}
+
+.Home3-Pet-SItters-listing-tit{
+    font-family: "Nunito";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+    color: inherit;
+    transition: 0.4s ease;
+}
+
+.Home3-Pet-SItters-listing-tit:hover{
+    color: #FF6900;
+}
+
+.What-Our-Customer-Say-swiper-position{
+    color: #d15700;
+}
+
+.What-Our-Customer-Say-swiper-tits{
+    padding: 1rem 0rem;
+}
+
+.What-Our-Customer-Say-swiper-wraper{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.What-Our-Customer-Say-sec .swiper{
+    overflow-y: hidden;
+}
+
+.prev{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+}
+
+.home3-date-author-comment{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 30px ;
+}
+
+.home3-date-author-comment *:hover{
+   color: #FF6900;
+}
+
+.home3-date-author-comment *{
+    color: black;
+    transition: 0.4s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.home3-blog-detail-page-main-img{
+    margin-bottom: 30px;
+}
+
+.home3-blog-detail-page-cont-n-sidebar{
+    padding: 100px 0rem;
+    overflow-x: hidden;
+}
+
+
+.home3-blog-detail-para{
+    margin-bottom: 50px;
+}
+
+.home3-blog-detail-page-cont-n-sidebar .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+.breed-food-enjoy{
+     display: flex;
+     gap: 20px;
+     margin: 0px 0px 29px ;
+}
+
+.breed-food-enjoy > *{
+    padding: 5px 11.5px;
+    background-color: #e7772833;
+    display: grid;
+    place-content: center;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ff6900;
+    transition: 0.4s ease;
+    text-decoration: none;
+}
+
+.breed-food-enjoy > *:hover{
+    color: white;
+}
+
+.Home3-The-pets-lives-day-main-img{
+    -webkit-mask-image: url("../src/assets/home-3/AboutDogCare/green-blob.svg");
+    mask-image: url("../src/assets/home-3/AboutDogCare/green-blob.svg");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    height: 573px;
+}
+
+.Home3-The-pets-lives-day-main-img > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.breed-food-enjoy > *:hover{
+    color: white;
+    background-color: #ff6900;
+}
+
+.home3-blog-quated-tit{
+    margin: 0px 0px 30px;
+    position: relative;
+    padding: 0px 58px;
+    font-family: "Nunito";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.home3-blog-quated-tit::before , 
+.home3-blog-quated-tit::after{
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 48px;
+    height: 32px;
+}
+
+.home3-blog-quated-tit::before{
+    background: url("../src/assets/home-3/blog-detail-page/blog-quats-for-tit.svg");
+    left: 0px;
+}
+
+.home3-blog-quated-tit::after{
+    background: url("../src/assets/home-3/blog-detail-page/blog-quats-for-tit.svg");
+    transform: rotate(180deg);
+}
+
+.Home3-blog-comments-tit{
+    font-family: "Nunito", serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+
+.comment-person-name{
+    margin-bottom: 0px;
+}
+
+.blog-comment-date-ago{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
+
+.Home3-blog-comments-card{
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 30px 30px 30px 120px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.Home3-blog-comments-card > p{
+    margin-bottom: 10px;
+}
+
+.blog-comment-likes , .blog-comment-replays{
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.blog-date , .blog-author , .blog-comment{
+    position: relative;
+    padding-left: 30px;
+}
+
+.blog-date::before , 
+.blog-author::before , 
+.blog-comment::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    left: 0px;
+}
+
+.blog-date::before{
+    background: url("../src/assets/home-3/blog-detail-page/Clock.svg");
+}
+
+.blog-author::before {
+    background: url("../src/assets/home-3/blog-detail-page/Person.svg");
+}
+
+.blog-comment::before{
+    background: url("../src/assets/home-3/blog-detail-page/messages.svg");
+}
+
+.blog-comment-likes::before , .blog-comment-replays::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.blog-comment-likes::before{
+    background: url("../src/assets/home-3/blog-detail-page/blog-comment-likes.svg");
+}
+
+.blog-comment-replays::before{
+    background: url("../src/assets/home-3/blog-detail-page/likeandcomment.svg");
+}
+
+.blog-comment-likes-nd-replays{
+    display: flex;
+    gap: 35px;
+}
+
+.Home3-blog-comments-profile-img{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.blog-detail-comment-form *{ 
+   width: 100%;
+   background-color: transparent;
+   border-radius: 10px;
+   outline: none;
+   box-shadow: none;
+}
+
+
+.blog-detail-comment-form{
+    padding: 30px;
+    background-color: #f1f1f1;
+    margin: 30px 0px;
+    border-radius: 20px;
+}
+
+.first-name-blog , .email-for-blog , .blog-detail-comment-text-area{
+    border: 1px solid #cccccc;
+    padding: 12px 30px;
+}
+
+.first-name-blog{
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.email-for-blog{
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.blog-detail-comment-text-area{
+    height: 152px;
+    margin-bottom: 30px;
+}
+
+.blog-detail-comment-form-tit{
+    font-family: "Nunito", serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 54px;
+    margin-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+.blog-detail-comment-form-btn{
+    width: 176px;
+    height: 50px;
+    border-radius: 0px 30px;
+    display: grid;
+    place-content: center;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.blog-detail-comment-form-btn:hover{
+    border: 1px solid #ff6600;
+    background-color: white;
+    color: #ff6600;
+}
+
+.home3-blog-detail-page-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 65px;
+    margin-bottom: 30px;
+}
+
+.home3-blog-blog-sidebar{
+    width: 100%;
+    height: 50px;
+    padding: 13px 65px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+.home3-Blog-DetailPage-SideBar-wraper{
+    position: relative;
+    margin-bottom: 26px;
+}
+
+
+
+.home3-Blog-DetailPage-SideBar-wraper::before{
+    content: "";
+    position: absolute;
+    background: url("../src/assets/home-3/blog-detail-page/Search.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 13px;
+    z-index: 1;
+}
+
+.home3-side-bar-imgs1{
+    margin-bottom: 30px;
+}
+
+.home3-blog-side-bar-recent-cards{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    gap: 30px;
+    padding: 0px 0px 15px;
+    border-bottom: 1px solid #dedede;
+}
+
+.home3-blog-side-bar-recent-cards a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    margin: 0px;
+    transition: 0.4s ease;
+}
+
+.home3-blog-side-bar-recent-cards a:hover{
+    color: #FF6900;
+}
+
+.home3-blog-side-bar-recent-cards p{
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    margin: 0px;
+}
+
+.home3-blog-side-bar-recent-posts{
+    padding: 34px 30px 30px 30px;
+    background-color: #f1f1f1;   
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.home3-blog-side-bar-recent-posts-tit{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    margin-bottom: 15px;
+}
+
+.Category-nd-weight{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.Category-nd-weight a{
+    text-decoration: none;
+    color: inherit;
+    transition: 0.4s ease;
+}
+
+.Category-nd-weight a:hover{
+    color: #FF6900;
+}
+
+.Category-nd-weight li{
+    display: flex;
+    gap: 6px;
+}
+
+.home3-pet-foot-shop-product-card{
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.home3-pet-foot-shop-product-img img{
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.home3-pet-foot-shop-product-img{
+    overflow: hidden;
+
+}
+
+.home3-pet-foot-shop-product-img:hover img{
+    transform: scale(1.2);
+}
+
+.home3-pet-foot-shop-sec{
+    padding: 4rem 0rem;
+    overflow-x: hidden;
+}
+
+.home3-pet-foot-shop-sec > .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+.home3-pet-foot-shop-sec p{
+    margin: 0px;
+}
+
+.Category-nd-weight span{
+    color: rgba(255, 105, 0, 1);
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.home3-pet-foot-shop-product-name{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: "Nunito", serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 34px;
+    margin: 15px 0px;
+    transition: 0.4s ease;
+}
+
+.home3-pet-foot-shop-product-name:hover{
+    color: #FF6900;
+}
+
+.home3-pet-foot-shop-side-bar-Category{
+    font-family: "Nunito Sans";
+}
+
+.home3-pet-foot-shop-side-bar-Category h4{
+    font-family: "Nunito";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.home3-pet-foot-shop-side-bar-Category > div{
+    display: flex;
+    gap: 20px;
+}
+
+.home3-pet-foot-shop-side-bar-Category input{
+    background-color: #ff6900;
+    color: #ff6900;
+}
+
+.home3-pet-foot-shop-side-bar-Category{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(241, 241, 241, 1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+
+input[type="checkbox"]{ 
+    width: 24px;
+    height: 24px;
+    accent-color: #f4680b;
+    outline: #ff6600;
+    box-shadow: none;
+    color: white;
+}
+
+.home3-blog-detail-page-ul-checks {
+    list-style: none;
+    padding: 0px;
+    margin: 50px 0px;
+}
+
+.home3-blog-detail-page-ul-checks li{
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.home3-blog-detail-page-ul-checks li::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ff6600;
+    border-radius: 50%;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+}
+
+.home3-blog-detail-page-img-nd-form{
+    display: flex;
+}
+
+.home3-blog-detail-page-img-nd-form .blog-detail-comment-form{
+    margin: 0rem;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.home3-blog-detail-page-form-img{
+    border-radius: 20px 0px 0px 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.home3-blog-detail-page-form-img img{
+    height: 110%;
+    object-fit: cover;
+}
+
+.home3-shopdetail-Related-products-sec{
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.home3-shopdetail-Related-products-sec  .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+.home3-shopdetail-Related-products-tit{
+    font-family: "Nunito";
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 54px;
+}
+
+.home3-shop-detail-comment-sec{
+    padding: 0px 0px;
+    overflow: hidden;
+}
+
+.home3-shop-detail-comment-sec > .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+.reviews-ng-ratings{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Shop-Details-prodouct-cart-price-1{
+    color: rgba(255, 105, 0, 1);
+}
+
+.Shop-Details-prodouct-cart-price-2{
+    font-size: 15px; 
+}
+
+.Shop-Details-prodouct-cart-cont-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.Shop-Details-cart-btn{
+    color: black;
+    text-decoration: none;
+    width: 88px;
+    height: 48px;
+    border: 1px solid   #c3c3c3;
+    border-radius: 20px 0px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.quant-cart-ng-like-btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Shop-Details-Add-to-cart-btn{
+    width: 137px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px 0px;
+    background-color: #ff6900;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    transition: 0.4s ease;
+}
+
+.Shop-Details-Add-to-cart-btn:hover{
+    border: 1px solid #ff6900;
+    background-color: white;
+    color: #ff6900;
+}
+
+.Shop-Details-Add-to-cart-heart-btn{
+    width: 137px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px 0px;
+    background-color: #ff6900;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    transition: 0.4s ease;
+}
+
+.Shop-Details-Add-to-cart-heart-btn:hover{
+    background-color: white;
+    border: 1px solid #ff6900;
+
+}
+
+.Shop-Details-Add-to-cart-heart-btn:hover img{
+    filter: brightness(0) saturate(100%) invert(42%) sepia(92%) saturate(2039%) hue-rotate(1deg) brightness(102%) contrast(105%);
+}
+
+.Shop-Details-prodouct-cart-sec{
+    padding: 100px 0rem 80px;
+    overflow: hidden;
+}
+
+.Shop-Details-prodouct-cart-sec > .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+.home2-AboutUsPage-cont-tit{
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    margin-bottom: 20px;
+}
+
+.home2-AboutUsPage-cont-tit > b , .The-Best-Training-Your-cont-tit > b{
+    color: #ff6900;
+}
+
+.home2-AboutUsPage-cont-btn{
+    width: 139px;
+    height: 50px;
+    background-color: #ff6900;
+    color: white;
+    border-radius: 30px 0px;
+    display: grid;
+    place-content: center;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-decoration: none;
+    transition: background-color 0.4s ease;
+}
+
+.home2-AboutUsPage-cont-btn:hover{
+    background-color: white;
+    border: 1px solid #ff6600;
+    color: #ff6900;
+}
+
+.home2-AboutUsPage-sec{
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.home2-AboutUsPage-sec  .home2-SafeaAndGoodHands-cont{
+    padding: 74px 0px 0px 0px;
+}
+
+.home2-AboutUsPage-sec > .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+.Home-3-banner-mini-tit{
+    position: relative;
+    padding-left: 25px;
+    font-family: "Nunito";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.Home3-The-pets-lives-day-mini-tit{
+    position: relative;
+    font-weight: 800;
+    line-height: 55px; 
+}
+
+.Home-3-banner-mini-tit > b , 
+.Home3-The-pets-lives-day-mini-tit > b{
+    color: #ff6900;
+}
+
+.Home3-The-pets-lives-day-mini-tit::before{
+    content: "";
+    position: absolute;
+    background: url("../src/assets/home-3/about-page/mini-tit-before.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+}
+
+.Home-3-banner-mini-tit::before{
+    content: "";
+    position: absolute;
+    background: url("../src/assets/home-3/about-page/mini-tit-before.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+}
+
+.thumbnail{
+    width: 100%;
+    height: 100%;
+}
+
+.thumbnail{
+    border-radius: 30px;
+    overflow: hidden
+}
+
+
+.thumbnail img{
+    transition: 0.5s ease;
+    border-radius: 30px;
+}
+
+.thumbnail img:hover{
+  transform: scale(1.2);
+}
+
+.react-fancybox{
+    width: 100%;
+    height: 100%;
+}
+
+.Image-Tour-imgs{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.home3Link a{
+    font-size:inherit ;
+    text-decoration: none;
+    color: inherit;
+}
+
+.home3Link a:hover{
+    color: #ff6900;
+}
+
+.Image-Tour-imgs:hover::after{
+    z-index: -10;
+}
+
+.Image-Tour-imgs:hover::before{ 
+   opacity: 0.5;
+}
+
+.home3-logo-nd-privacy-policy{
+    max-width: 1216px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #242535;
+    padding: 1rem 0rem;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+}
+
+.home3-footer-logo-and-cont-wrap{
+    display: flex;
+    gap: 10px;
+}
+
+.home3-privacy-policy{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.home3-privacy-policy li{
+    color: #bababf;
+}
+
+.home3-footer-logo-nd-copy-rights{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home3-footer-logo-nd-copy-rights p{
+    color: #bababf;
+    margin: 0px;
+}
+
+.t-yellow{
+    color: #fbd10d;
+}
+
+.t-orange{
+    color: #e77728;
+}
+
+.inner-home a{
+    text-decoration: none;
+    text-align: left;
+}
+
+.inner-home a{
+ color: black;
+ display: block;
+}
+
+.page1-wrap .inner-home a:hover{
+    color: #da0c81;
+}
+
+.Shop-Details-prodouct-cart-img-wrap{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.Shop-Details-prodouct-btn-wrap{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    display: flex;
+    gap: 15px;
+}
+
+.Shop-Details-prodouct-btn{
+    width: 50px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #FF6900;
+}
+
+.prodouct-img2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.prodouct-img4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.Shop-Details-prodouct-cart-social-meida{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.Shop-Details-prodouct-cart-social-meida  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Home3-Pet-SItters-listing-social-medias img{
+    transition: 0.5s ease;
+}
+
+.Home3-Pet-SItters-listing-social-medias img:hover{
+   transform: translateY(-10px);
+}
+
+.active3{
+    color:#65b741 !important;
+}
+
+.Home3-nav-pages{
+    position: relative;
+}
+
+.Home3-nav-pages:hover::after{
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.Home3-pages-link{
+    position: relative;
+    padding-right: 1.4rem;
+}
+
+.Home3-pages-link img{
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    transition: 0.3s linear;
+}
+
+.copy-right-company{
+    text-decoration: none;
+}
+
+.copy-right-company:hover{
+    color: #ff6900;
+}
+
+.opening-hours-sec-cards{
+    display: flex;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.opening-hours-sec-card-icon{
+    flex-shrink: 0;
+}
+
+.opening-hours-sec-card-icon > img{
+    background-color: #ff6900;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+}
+
+.opening-hours-sec-card-cont > p{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #474747;
+}
+
+.opening-hours-sec-card-cont > h4{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+    margin-bottom: 5px;
+}
+
+.opening-hours-sec{
+    padding: 0px 0px 100px 0px;
+    overflow: hidden;
+}
+
+.opening-hours-sec > .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+.home-3-blog-card-img{
+    height: 274px;
+    width: 406px;
+}
+
+.home-3-blog-card-img img{
+    object-fit: cover;
+}
+
+.home-3-blog-card-img{
+    margin-bottom: 20px;
+}
+
+.home3-blog-detail-page-para{
+    margin-bottom: 50px;
+}
+
+.Pets-Detail-Page-Know-more-about-pets{
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.Pets-Detail-Page-Know-more-about-pets > .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+.home3-contact-us-map-embeded-code > .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+.home3-contact-us-map-embeded-code{
+    overflow-x: hidden;
+}
+
+.home3-contact-us-form-sec{
+    padding: 100px 0px;
+    color: white;
+    background: url("../src/assets/home-3/home3-contact-us/home3-contact-us-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    margin: 100px auto 0px;
+    overflow-x: hidden;
+}
+
+.home3-contact-us-form-sec > .container{
+    max-width: 1400px;
+    padding: 0px;
+}
+
+.Pets-Detail-Page-Know-more-contact .home3-contact-us-form-card-tit b{
+    color: #ff6900;
+}
+
+.Pets-Detail-Page-Know-more-contact .home3-contact-us-form-card-tit{
+    font-family: "Nunito";
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 58px;
+}
+
+.home3-contact-us-form-card-tit{
+    margin-bottom: 26px;
+}
+
+.Pets-Detail-Page-Know-more-contact .home3-contact-us-form-card{
+    background-color: #ffffff;
+}
+
+.home3-contact-us-form-card-btn{
+    display: grid;
+    place-content: center;
+    border-radius: 30px 0px;
+    width: 159px;
+    height: 50px;
+    background-color: rgba(255, 105, 0, 1);
+    color: white;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.home3-contact-us-form-card-btn:hover{
+    border: 1px solid rgba(255, 105, 0, 1);
+    color: rgba(255, 105, 0, 1);
+    background-color: white;
+}
+
+.home3-contact-us-form-card{
+    background-color: #00000099;
+    padding: 30px;
+    border-radius: 29px 30px;
+}
+
+.home3-contact-us-form-fname, 
+.home3-contact-us-form-lname, 
+.home3-contact-us-form-email,
+.home3-contact-us-form-text-area{
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #cccccc80;
+    background-color: transparent;
+    padding: 12px 30px;
+    color: white;
+}
+
+.home3-contact-us-form-text-area{
+    height: 226px;
+}
+
+.home3-contact-us-form-fname , 
+.home3-contact-us-form-lname , 
+.home3-contact-us-form-email {
+    height: 50px;
+}
+
+.home2-AboutUsPage-sec .home2-SafeaAndGoodHands-cont  {
+   padding-top: 78px;
+}
+
+.home2-SafeaAndGoodHands-cont-small-card p{
+    margin-bottom: 30px;
+}
+
+.Shop-search-selact-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Shop-search-selact-wrap .shop-search-input{
+    width:  100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F1F1F1;
+    padding: 12px 65px;
+    position: relative;
+}
+
+.shop-search-input-wrap{
+ position: relative;
+ width: 40%;
+ max-width: 100%;
+}
+
+.shop-search-input-wrap::before{
+    content: "";
+    position: absolute;
+    background: url("../src/assets/home-3/blog-detail-page/Search.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    z-index: 1;
+}
+
+.Shop-search-selact-wrap .shop-search-input::before{
+    content: "";
+    position: absolute;
+    background: url("../src/assets/home-3/blog-detail-page/Search.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 0px;
+    z-index: 1;
+}
+
+.Shop-search-selact-wrap .shop-search-input:focus-visible{
+    border: none;
+    outline: none;
+}
+
+.items-per-page-wrap{
+    display: flex;
+    margin: 0px 30px;
+    align-items: center;
+    gap: 20px;
+}
+
+.select-option-wrap{
+    padding: 12px 15px;
+    background-color: #ff6900;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.items-per-page-wrap select:focus-visible{
+   outline: none;
+   border: none;
+}
+
+.items-per-page-wrap *{
+    flex-shrink: 0;
+}
+
+.Sort-By-wrap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Sort-By-wrap select{
+    background-color: #ff6900;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.Sort-By-wrap select:focus-visible{
+    outline: none;
+    border: none;
+}
+
+.Sort-By-wrap *{
+    flex-shrink: 0;
+}
+
+.home3-pet-foot-shop-product-price{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0px;
+}
+
+.Price-Range-wrap{
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.Price-Range-wrap h4{
+    margin-bottom: 30px;
+}
+
+.Price-Range-input{
+    accent-color: #ff6900;
+    width: 100%;
+    display: block;
+    background-color: white;
+    margin: 0rem auto 30px;
+}
+
+.Price-Range-input-num-wrap > *{
+    width:40%;
+    flex-shrink: 0;
+}
+
+.Price-Range-input-num-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Shop-Details-prodouct-cart-sec .accordion-item{
+    outline: none;
+    border-top: 1px solid gray !important;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 0px !important;
+}
+
+.Shop-Details-prodouct-cart-sec .accordion-button:not(.collapsed){
+    background-color: white;
+    box-shadow: none;
+    color: black;
+}
+
+.Shop-Details-prodouct-cart-sec .accordion-button{
+    padding: 15px 0px;
+}
+
+
+.Shop-Details-prodouct-cart-sec .accordion-body{
+   padding: 15px 0px;
+}
+
+.Shop-Details-prodouct-cart-sec .accordion-item:last-of-type .accordion-button.collapsed{
+    border: none;
+}
+
+.Shop-Details-prodouct-cart-sec .accordion-button:focus {
+    box-shadow: none;
+}
+
+.Shop-Details-prodouct-cart-main-tit{
+    margin-bottom: 20px;
+}
+
+.reviews{
+    margin-bottom: 15px;
+}
+
+.Shop-Details-prodouct-cart-price{
+    margin-bottom: 15px;
+}
+
+.Shop-Details-prodouct-cart-cont-wrap > p{
+    margin-bottom: 20px;
+}
+
+.quant-cart-ng-like-btn{
+    margin-bottom: 20px;
+}
+
+.sku-nd-category{
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.sku-nd-category > p{
+   margin-bottom: 0px;
+}
+
+.small-btn, .big-btn{
+    display: inline-block;
+    border-radius: 30px 0px 30px 0px;
+    padding: 15px 32px;
+    border: 1px solid #FF6900;
+    background-color: #FF6900;
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    transition: 0.4s ease;
+}
+
+.small-btn:hover{
+    color: #FF6900;
+    background-color: white;
+}
+
+.big-btn:hover{
+    color: #FF6900;
+    background-color: white;
+}
+
+.home3-shop-detail-comment-sec .blog-detail-comment-form {
+   margin: 0px;
+}
+
+.items-per-page-wrap .form-select{
+   width: 70px;
+   background-color: #ff6900;
+   color: white;
+    padding: 8px 15px;
+}
+
+.Sort-By-wrap .form-select{
+    width: fit-content;
+    padding: auto 50px auto auto !important;
+}

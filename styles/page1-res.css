@@ -1,0 +1,336 @@
+@media (max-width:1000px){
+    .blog-swiper-card-read-more-btn::before{
+        width: 30%;
+    }
+    .nav-options{
+         display: none; 
+    }
+
+    .clients-feedback-sec .container{
+        max-width: 100%;
+    }
+    .copy-rights{
+        width: 70%;
+    }
+    .home-banner-main-tit{
+        font-family: "Nunito", serif;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 70px;
+    }
+    .about-us-sec-contant-home{
+        padding: 0px;
+    }
+    .subscribe-newsletter-input input{
+        width: 100%;
+        height: 72px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        display: block;
+        padding: 0rem 5rem;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+    }
+    .subscribe-newsletter-tit-wraper{
+        width: 90%;
+    }
+    .page1-wrap .header-btn{
+        display: none;
+    }
+    
+    .page1-wrap .home-banner-sec{
+        background-position: -900px 0px;
+    }
+    .home1-hamburger-menu{
+        display: block;
+    }
+    .home1-mobile-nav{
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        list-style: none;
+        border-radius: 0px 0px 0px 20px;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        transition: 0.3s;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(50%);
+        z-index: 10;
+        width: 0px;
+        padding: 0px;
+        display: flex;
+        padding: 5rem 0rem;
+        width: 50%;
+        height: 100vh;
+    }
+
+    .home1-mobile-nav2{
+        position: fixed;
+        right: -6%;
+        top: -30px;
+    }
+
+    .nav-view{
+        visibility: visible;
+        opacity: 10;
+        transform: translateX(0%);
+    }
+
+    .Home3-nav-pages *{
+        font-size: 15px;
+    }
+    
+
+    .blog-section-home .swiper-button-prev{
+        transform: translate(1200%, -70px);
+    }
+
+    .home1-mobile-nav > li{
+        /* margin: 0.5rem 0rem; */
+    }
+
+    .home1-mobile-nav > li > a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+    
+    .clients-feedback-sec .swiper-Slide-card{
+        width: 100%;
+        background-size: contain;
+
+    }
+
+
+    .Home3-nav-pages button{
+        background: none;
+        width: 100%;
+        border: none;
+    }
+
+    .Home3-nav-pages > button > a{
+        font-size: 18px;
+    }
+
+    .Home3-nav-pages::before{
+        content: "";
+        position: absolute;
+        background: url("../src/assets/common/down-arrow.png");
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        right: 10%;
+        top: 5px;
+        transform: rotate(-90deg);
+        border-radius: 10px;
+        transition: 0.2s linear;
+    }
+    
+   .Home3-nav-pages::after{
+    display: none;
+   }
+
+    .body .inner-home > li > a{
+
+    }
+
+    .Home3NavPages-list{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        background-color: white;
+        padding: 2rem 25%;
+        text-align: center;
+        gap: 15px;
+        z-index: 10;
+        border-radius: 20px 0px;
+        right: 0px;
+        color: #000000;
+        top: 100%;
+        transition: 0.4s ease;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .Home3-nav-pages a{
+        text-align: center;
+    }
+
+    body .inner-home a{
+        text-align: center;
+    }
+
+    body .inner-home{
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        background-color: white;
+        padding: 2rem 20%;
+        gap: 20px;
+        width: 250px;
+        box-shadow: none;
+        border-radius: 10px;
+        right: 0px;
+        top: 0px;
+        left: 0px;
+        transform: translateX(100%) translateY(0px)  ;
+        transition: 0.4s ease;
+        visibility: hidden;
+        opacity: 0;
+        height: 100%;
+        z-index: 100;
+    }
+
+    .Home3NavPages-list{
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        gap: 15px;
+        background-color: white;
+        z-index: 10;
+        width: 0px;
+        border-radius: 20px 20px;
+        right: 0px;
+        color: #000000;
+        top: 0px;
+        transform: translateX(100%);
+        transition: 0.4s ease;
+        visibility: hidden;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .active-Home3NavPages-list{
+        position: fixed ;
+        visibility: visible ;
+        opacity: 1 ;
+        transform: translateX(0px);
+        width: 100% ;
+        left: 0px;
+    }
+
+    .page2-wrap .inner-home{
+        padding: 2rem 1rem;
+    }
+
+    body .active-inner-home{
+        opacity: 1 ;
+        position: fixed;
+        text-decoration: none ;
+        width: 100% ;
+        left: 0px;
+        transform: translateX(0%) ;
+        visibility: visible;
+    }
+
+     .active-inner-home li{
+        display: grid;
+        gap: 20px;
+        padding: 0px 0px ;
+     }
+
+    .home button{
+        width: 100%;
+        box-shadow: none;
+        border: none;
+        background: none;
+        text-decoration: none;
+    }
+
+    .home > button > a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .home::before{
+        content: "";
+        position: absolute;
+        background: url("../src/assets/common/down-arrow.png");
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        right: 10%;
+        top: 5px;
+        transform: rotate(-90deg);
+        border-radius: 10px;
+        transition: 0.2s linear;
+        display: block;
+    }
+
+    .inner-home-hide-menu img{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        transform: rotate(90deg) ;
+    }
+
+    .opening-hours-sec-cards{
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media (max-width:1500px){
+    .get-every-pet-foods-cont{
+        padding: 50px 78px;
+    }
+    .groomers-names{
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 40px;
+        margin: 30px 0px 30px;
+    }
+    .person-positions{
+        margin: 30px 0px 20px;
+    }
+    .blog-section-home .swiper-button-prev{
+        display: none;
+    }
+    .blog-section-home .swiper-button-next{
+        display: none;
+    }
+    .blog-swiper-card-tit{
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 30px;
+        margin: 15px 0px;
+    }
+    .home ul{
+        padding: 0rem;
+  
+    }
+
+    .nav-options{
+        gap: 20px;
+    }
+    .blog-swiper-card-read-more-btn::before{
+        width: 30%;
+    }
+    .span-pet-care{
+        margin: 0px;
+    }
+    .admin{
+        border: none;
+    }
+}
+
+@media (max-width:1600px) {
+    .page1-wrap header{
+        width: 90%;
+        padding: 20px 30px;
+    }
+}

@@ -1,0 +1,122 @@
+@media (max-width:1000px){
+    .home3-header-nav-options{
+        display: none;
+    }
+    .home-3-blog-card-img img{
+        width: 100%;
+    }
+    .Home3-Detail-Banner-sec{
+        height: 350px;
+    }
+    .primary-btn{
+        display: none;
+    }
+    .Home3-Detail-Banner-nav{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        align-items: center;
+        width: max-content;
+    }
+    .Pets-Detail-Page-Know-more-about-card{
+        text-align: center;
+    }
+    .Home3-Testimonial-sec-card{
+        width: 100%;
+    }
+    .Home3-Testimonial-sec-card{
+        background-size: contain;
+    }
+
+    .home3-header{
+        padding: 1rem 0rem;
+    }
+    .Home-3-banner-sec{
+        margin-top: 50px;
+    }
+    .Home3-Detail-Banner-sec{
+        margin-top: 50px;
+    }
+    .image-box{
+        margin: 3rem !important;
+    }
+    .Image-Tour-imgs::after{
+        top: -50px;
+    }
+
+    /* .image-box */
+
+
+    
+}
+
+@media (min-width:1000px ) {
+
+    .Home3-nav-pages:hover .Home3NavPages-list{
+        visibility: visible;
+        top: 100%;
+        box-shadow: none;
+        border-radius: 10px;
+        transition: 0.4s ease;
+        opacity: 1;
+        text-align: center;
+        margin-top: 1.5rem;
+        width: max-content;
+    }
+    
+    
+    
+    body .inner-home{
+        position: absolute;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        gap: 20px;
+        z-index: 100;
+        visibility: hidden;
+        top: 100%;
+        box-shadow: none;
+        border-radius: 10px;
+        transition: 0.4s ease;
+        opacity: 0;
+        width: 212px;
+        text-align: center;
+    }
+    
+    .home:hover .inner-home{
+        visibility: visible;
+        top: 100%;
+        box-shadow: none;
+        border-radius: 10px;
+        transition: 0.4s ease;
+        opacity: 1;
+        margin-top: 1.5rem;
+    }
+    }
+
+@media (max-width:1500px){
+    .Home3-The-pets-lives-day-main-img{
+        mask-position: center;
+    }
+    .home3-footer-Category-links-tit, .home3-footer-quick-links-tit, .home3-footer-abt-cont-tit{
+        font-size: 26px;
+    }
+    .Home3-Testimonial-sec-card{
+        width: 370px;
+    }
+    .Home3-Testimonial-card-profile{
+        width: 230px;
+        height: 230px;
+    }
+
+    .home-3-blog-card-img{
+        width: 100%;
+        height: auto;
+    }
+
+    .home-3-blog-card-img img{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,693 @@
+@media (max-width:600px){
+    .Image-Tour-imgs::before{
+        display: none;
+    }
+
+    .Image-Tour-imgs::after{
+        display: none;
+    }
+
+    .home3-logo-nd-privacy-policy{
+        flex-direction: column;
+        
+    }
+
+    .home3-What-We-Offer-main-tit , 
+    .home3-What-We-Offer-main-tit-1, 
+    .Home3-The-pets-lives-day-main-tit{
+        font-family: "Nunito", serif;
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 50px;
+        color: black;
+    }
+    .Home3-footer-sec{
+        padding: 100px 0px 150px ;
+    }
+
+    .home3-What-We-Offer-card{
+        width: 90%;
+        margin: 30px auto 0px;
+        padding: 20px;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .Home3-The-pets-lives-day-main-img{
+        height: fit-content;
+    }
+
+    .Home3-The-pets-lives-day-main-img > img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+    }
+
+    .home3-What-We-Offer-card > p {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .home3-What-We-Offer-tit-wraper{
+        width: 80%;
+    }
+
+    .About-DC-Care-cont-main-tit{
+        font-family: "Nunito", serif;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 55px;
+        margin: 20px 0px;
+    }
+    
+    .About-DC-Care-cont-main-tit-1{
+        font-family: "Nunito", serif;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 55px;
+        margin: 20px auto;
+    }
+    
+    .Home-3-banner-sec{
+        background-position: -900px 0px;
+        height: 800px;
+    }
+
+    .Home3-Testimonial-card-profile{
+        width: 165px;
+        height: 165px;
+    }
+    
+    .home3-date-author-comment{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .small-btn, .big-btn{
+        margin: 1rem 1rem;
+        display: block;
+        width: fit-content;
+    }
+    
+    .home3-blog-quated-tit{
+        padding: 0px 3rem;
+        text-align: center;
+    }
+    
+    .home3-blog-quated-tit::before,
+    .home3-blog-quated-tit::after{
+        right: 0px;
+    }
+
+    .home3-blog-detail-page-main-tit{
+        font-family: "Nunito", serif;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 55px;
+    }
+    
+    .home3-side-bar-imgs1{
+        width: 80%;
+        margin: 3rem auto;
+    }
+    
+    .home3-side-bar-imgs2{
+        width: 80%;
+        margin: 3rem auto;
+    }
+
+    .PetsDetailPage-Knowmore-about-ul-checks > li{
+        gap: 20px;
+        margin-bottom: 15px;
+    }
+
+    .PetsDetailPage-Knowmore-about-ul-checks > li > span{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .PetsDetailPage-Knowmore-about-card-btn{
+        height: 48px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 34px;
+        width: 80%;
+        margin: 0rem auto;
+    }
+
+    .home3-contact-us-form-text-area{
+        height: 80px;
+    }
+
+    .Pets-Detail-Page-Know-more-contact .home3-contact-us-form-card-tit{
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+
+    .home3-Blog-DetailPage-SideBar-wraper::before{
+        left: 40px;
+    }
+
+    .home3-footer-logo-and-cont-wrap{
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .blog-detail-comment-form{
+        margin: 2rem auto !important;
+        border-radius: 20px !important;
+        padding: 15px;
+    }
+    
+    .home3-blog-blog-sidebar{
+        width: 90%;
+        padding: 1rem 3rem;
+        display: block;
+        margin: 0rem auto;
+    }
+
+    .home3-blog-side-bar-recent-cards{
+        gap: 15px;
+    }
+    
+    .home3-blog-side-bar-recent-cards a{
+        font-size: 14px;
+    }
+
+    .home2-SafeaAndGoodHands-cont-small-card{
+        flex-direction: column;
+    }
+
+    .Shop-Details-prodouct-btn-wrap{
+        left: 40%;
+    }
+
+    .quant-cart-ng-like-btn{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .Shop-Details-prodouct-cart-img-wrap{
+        width: 90%;
+        margin: 0rem auto 50px;
+    }
+
+    .home3-blog-detail-page-img-nd-form{
+        margin: 2rem auto;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .home3-blog-side-bar-recent-posts{
+        width: 90%;
+        margin: 1rem auto;
+        padding: 10px;
+    }
+
+    .Shop-Details-prodouct-cart-cont-wrap{
+        width: 90%;
+        margin: 0rem auto;
+    }
+
+    .blog-detail-comment-form-tit{
+        font-size: 25px;
+    }
+
+    .Price-Range-wrap{
+        padding: 10px;
+    }
+
+    .Price-Range-wrap h4{
+        margin-bottom: 15px;
+    }
+
+    .home3-pet-foot-shop-side-bar-Category{
+        padding: 15px;
+        gap: 13px;
+        font-size: 15px;
+    }
+
+    input[type="checkbox"]{
+        width: 20px;
+        height: 20px;
+    }
+
+    .Price-Range-input{
+        margin-bottom: 15px;
+    }
+
+    .first-name-blog , .email-for-blog{
+        padding: 7px 20px;
+        height: 35px;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .blog-detail-comment-text-area{
+        padding: 7px 20px;
+        height: 75px;
+        font-size: 15px;
+    }
+
+    .blog-detail-comment-form-tit{
+        margin-bottom: 15px;
+    }
+
+    .Home3-blog-comments-card{
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    .Home3-Detail-Banner-main-tit{
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 45px;
+    }
+
+    .Home-3-banner-main-tit{
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 56px;
+    }
+
+    .home3-What-We-Offer-card-tit{
+        font-size: 22px;
+        line-height: 43px;
+        margin: 10px 0px 10px;
+    }
+
+    .home3-What-We-Offer-card-icon{
+        width: 70px;
+        height: 70px;
+        padding: 1rem;
+    }
+
+    .adopt-pet-img{
+        width: 50px;
+    }
+
+    .Know-more-about-Berry-cont-main-tit{
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .home2-AboutUsPage-cont-tit , 
+    .About-DC-Care-cont-main-tit{
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .What-Our-Customer-Say-swiper-card::before{
+        width: 45px;
+        height: 45px;
+        top: 20px;
+        right: 20px;
+    }
+
+    .contact-cont-and-social-media-links{
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+
+    .footer-contact-detail > li{
+        margin: 10px 0px;
+    }
+
+    .footer-contact-detail{
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .Providing-the-Best-Service-sec-cont-tit{
+        text-align: center;
+    }
+
+    .Providing-the-Best-Service-sec-cont > p{
+        text-align: center;
+    }
+
+    .What-Our-Customer-Say-swiper-position{
+        font-size: 18px;
+    }
+
+    .What-Our-Customer-Say-swiper-top{
+        gap: 10px;
+        align-items: center;
+    }
+
+    .About-DC-Care-main-img{
+        width: 100%;
+        height: 100%;
+        margin: 0rem auto;
+        mask-size: 100% 100%;
+    }
+
+    .About-DC-Care-cont-wrap{
+        width: 90%;
+        margin: 0rem auto;
+        text-align: center;
+        text-align: center;
+
+    }
+    .banner-btn-wraper{
+        justify-content: center;
+    }
+    .Home3-The-pets-lives-day-cont-wrap{
+        width: 90%;
+        margin: 0rem auto;
+        text-align: center;
+    }
+    .Home3-The-pets-lives-day-main-img{
+        width: 90%;
+        margin: 0rem auto;
+        mask-size: 100%  100%;
+    }
+    
+    .Home-3-banner-sec .banner-btn-wraper{
+        justify-content: start;
+    }
+    .Know-more-about-Berry-cont-ul-checks > li > h4{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .blog-comment-likes-nd-replays{
+        font-size: 15px;
+    }
+    .comment-person-name{
+        font-size: 22px;
+    }
+    .About-DC-Care-cont-wrap{
+        padding: 3rem 0rem;
+    }
+
+    .Home3-Testimonial-sec .swiper-button-next, .swiper-button-prev{
+        width: 40px;
+        height: 40px;
+    }
+    .Home3-Testimonial-sec .swiper-button-prev:after, .swiper-button-next:after{
+        font-size: 16px;
+    }
+
+    .About-DC-Care-cont-mini-tit::before{
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+    .Home3-The-pets-lives-day-mini-tit::before{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .home-3-blog-author-name-nd-date p{
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .home-3-blog-author-name-nd-date > div > h4{
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 26px;
+    }
+    .home3-privacy-policy a{
+        font-size: 14px;
+    }
+
+    .What-Our-Customer-Say-star-img{
+        width: 50%;
+    }
+
+    .What-Our-Customer-Say-swiper-card{
+        padding: 20px;
+    }
+
+    .Home3-Testimonial-sec-card{
+        width: auto;
+    }
+
+    .home-3-blog-main-tit{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+    
+    }
+
+    .home3-Testimonial-tit-wraper{
+        margin: 1rem auto;
+    }
+
+    .home3-blog-detail-page-main-tit{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .Home3-blog-comments-card{
+        padding: 20px;
+    }
+
+    .Home3-blog-comments-profile-img{
+        position: static;
+        margin-bottom: 15px;
+    }
+
+    .Know-more-about-Berry-cont-main-tit{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .home3-What-We-Offer-main-tit, 
+    .home3-What-We-Offer-main-tit-1, 
+    .Home3-The-pets-lives-day-main-tit, 
+    .home3-Testimonial-main-tit, 
+    .home3-Testimonial-main-tit-blog{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .home2-AboutUsPage-cont-tit, 
+    .About-DC-Care-cont-main-tit{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        margin: 0rem auto;
+    }
+
+    .home-3-blog-card-img{
+        width: 100%;
+    }
+    
+    .home2-SafeaAndGoodHands-main-img{
+        height: 420px;
+        /* padding: 1rem; */
+        width: 90%;
+        margin: 1rem auto 0rem;
+    }
+
+    .home2-SafeaAndGoodHands-main-img > img{
+        position: static;
+        width: 100%;
+        margin: 0rem auto;
+    }
+
+    .home2-AboutUsPage-sec .home2-SafeaAndGoodHands-cont{
+        width: 90%;
+        margin: 0rem auto;
+        padding: 0px;
+    }
+
+    .opening-hours-sec-cards{
+        margin: 1rem auto;
+        width: 90%;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .home3-contact-us-form-fname, .home3-contact-us-form-lname, .home3-contact-us-form-email, .home3-contact-us-form-text-area{
+        margin-bottom: 15px;
+    }
+
+    .opening-hours-sec-card-icon > img{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+
+    .home3-contact-us-form-card{
+        width: 85%;
+        margin: 0rem auto;
+        padding: 20px 15px;
+    }
+
+    .home3-contact-us-form-fname, .home3-contact-us-form-lname, .home3-contact-us-form-email{
+        height: 35px;
+        padding: 7px 20px;
+    }
+
+    .About-DC-Care-cont-mini-tit-1{
+        width: fit-content;
+        margin: 0rem  auto;
+    }
+
+    body .home-3-blog-card{
+        width: 90%;
+        margin: 0rem auto 2rem;
+        padding: 10px;
+    }
+
+    .Home3-Adopt-Pets-Page-sec-card{
+        width: 80%;
+        margin: 110px auto 30px;
+        padding: 120px 20px 20px;
+    }
+
+    .Gender::before  , .pet-Age::before{
+        width: 35px;
+        height: 35px;
+    }
+
+    .gender-nd-age > li > p{
+        font-size: 20px;
+    }
+    
+    .home-3-blog-main-tit{
+        margin-bottom: 10px;
+    }
+
+    .home-3-blog-card p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .home-3-blog-author-name-nd-date img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .home-3-blog-author-name-nd-date div h4{
+        font-size: 14px;
+    }
+
+    .home-3-blog-mini-tit{
+        font-size: 14px;
+    }
+
+    .gender-nd-age > li > span{
+        padding-left: 40px;
+        font-size: 20px;
+    }
+
+    .Shop-search-selact-wrap{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Shop-search-selact-wrap > *{
+        width: 100%;
+    }
+
+    .items-per-page-wrap{
+        justify-content: start;
+        margin: 1rem auto;
+    }
+
+    .Sort-By-wrap{
+        justify-content: start;
+    }
+
+    .Shop-search-selact-wrap{
+        width: 80%;
+        margin: 0rem auto;
+    }
+
+    .home3-pet-foot-shop-side-bar-wrap{
+        width: 90%;
+        margin: 0rem auto;
+    }
+
+    .home3-pet-foot-shop-product-card{
+        width: 90%;
+        margin: 30px auto 0px;
+        padding: 10px;
+    }
+
+    .home3-pet-foot-shop-product-name{
+        font-size: 20px;
+    }
+
+    .home3-blog-detail-page-cont-n-sidebar{
+        width: 90%;
+    }
+
+    .home3-shopdetail-Related-products-tit{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .Pets-Detail-Page-Know-more-about-card{
+        width: 90%;
+        margin: 0rem auto 40px;
+    }
+
+    .blog-date, .blog-author, .blog-comment{
+        display: block;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .breed-food-enjoy > *{
+        font-size: 13px;
+    }
+
+    .home3-blog-quated-tit{
+        padding: 0px 1rem;
+    }
+
+    .Home3-Pet-SItters-listing-cards{
+        width: 80%;
+        margin: 0px auto 70px;
+    }
+
+    .Home3-Pet-SItters-listing-social-medias img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .accordion-button{
+        font-size: 16px !important;
+    }
+
+    .accordion-body{
+        font-size: 15px;
+    }
+
+    .About-DC-Care-sec{
+        padding: 100px 0px 100px ;
+    }
+
+    .thumbnail{
+        border-radius: 5px;
+    }
+
+    .thumbnail img{
+        border-radius: 5px;
+    }
+
+    .home3-blog-quated-tit::before, .home3-blog-quated-tit::after{
+        width: 38px;
+        height: 22px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    
+
+
+
+}

@@ -1,0 +1,222 @@
+@media (max-width:600px){
+    .about-us-sec-main-img img{
+        margin: 0px;
+    }
+    .about-us-sec-main-img{
+        margin: 0px auto;
+        width: 90%;
+        height: auto;
+
+    }
+    .page1-wrap header{
+        padding: 5px 0px;
+        height: fit-content;
+        width: 90%;
+    }
+    .home-banner-cont-card{
+        width: 90%;
+        top: 270px;
+    }
+    .get-every-pet-foods-main-tit{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px;
+    }
+    .get-every-pet-foods-cont{
+        padding: 50px 38px;
+    }
+    .what-we-do-cards{
+        width: 85%;
+        margin: 40px auto auto;
+    }
+    .what-we-do-card-tit{
+        margin: 10px auto 10px;
+    }
+    .what-we-do-sec{
+        overflow: hidden;
+    }
+    .blog-swiper-card{
+        margin: 0rem auto;
+        width: 80%;
+    }
+
+    .blog-section-home .container{
+        width: 100%;
+    }
+
+    .blog-section-home .swiper-button-next{
+        display: none;
+    }
+
+    .blog-section-home .swiper-button-prev{
+        display: none;
+    }
+
+    .blog-swiper-card-read-more-btn::before{
+        width: 30%;
+        height: 2px;
+        right: 60px;
+    }
+
+    .subscribe-newsletter-btn{
+        width: 100px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        display: grid;
+        place-content: center;
+        padding: 0rem 3rem 0rem 2rem;
+    }
+
+    .subscribe-newsletter-input input{
+        height: 62px;
+        padding: 0rem 6rem 0rem 2.5rem;
+    }
+    .subscribe-newsletter-mail{
+        width: 24px;
+        height: 24px;
+        left: 10px;
+    }
+    .subscribe-newsletter-btn::before{
+        width: 20px;
+        height: 20px;
+        right: 10px;
+    }
+    .subscribe-newsletter-tit{
+        font-family: "Nunito", serif;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 45px;
+    }
+    .page1-wrap .home-banner-sec{
+        height: 900px;
+    }
+
+    .clients-feedback-sec .swiper-Slide-card{
+        background: none;
+    }
+
+
+    .our-groomers-card {
+        width: 80%;
+        margin: 2rem auto;
+    }
+    .clients-feedback-sec .swiper-Slide-inner-card{
+        height: 300px;
+        background-size: 210% 210%;
+        top: 100px;
+    }
+
+    .subscribe-newsletter-sec{
+     padding: 20px;
+    }
+
+    .blog-section-home > .container{
+        padding: 0rem 0rem 5rem ;
+    }
+    .blog-section-home .swiper-wrapper{
+        height: 353px;
+    }
+    .footer-logo{
+        margin: 0rem auto;
+        border-right: none;
+        display: grid;
+        place-content: center;
+    }
+
+    .footer-logo::before , .footer-logo::after{
+        display: none;
+        
+    }
+    .copy-rights{
+        margin: 0rem auto;
+        width: 90%;
+        text-align: center;
+    }
+    .social-media-links{
+        margin: 0rem auto;
+    }
+    .clients-feedback-sec{
+        padding: 2rem 0rem;
+    }
+    .swiper-pagination-clickable .swiper-pagination-bullet{
+        width: 17px;
+        height: 17px;
+    }
+    .clients-feedback-sec .swiper-custom-container{
+        max-height: 600px;
+    }
+    .clients-feedback-sec .swiper-Slide-card{
+        height: 400px;
+    }
+   
+    .Appointment-nd-contact-btn{
+        flex-direction: column;
+    }
+    .span-pet-care{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .admin{
+        border: none;
+    }
+
+    .logo-nav-appointment{
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        max-width: 90% !important;
+        margin: 0rem auto;
+    }
+
+    .home1-mobile-nav{
+        width: 70%;
+
+    }
+
+    .abt-us-sec-check-box{
+        width: 100%;
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+    }
+
+    .abt-us-sec-check-box li{
+        position: relative;
+        padding: 0rem 1rem 0rem 2rem;
+        font-size: 12px;
+        width: 50%;
+        margin-right: 0px;
+    }
+
+    /* .opening-hours-sec-cards{
+        margin-bottom: 2rem;
+    } */
+
+    .blog-section-home .swiper-slide{
+        width: 100%;
+    }
+
+    .blog-swiper-card{
+        width: 90%;
+        margin: 0rem auto;
+    }
+
+    .back-to-top-btn-wrap{
+        right: 30px;
+        bottom: 30px;
+    }
+
+    .Home-3-banner-content-wraper{
+        width: 90%;
+        margin: 0rem auto;
+    }
+
+    .Home3-nav-pages a{
+        text-align: start;
+    }
+    
+
+
+}

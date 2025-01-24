@@ -1,0 +1,1753 @@
+:root{
+    --primary:#711db0;
+    --secondary: #da0c81;
+    --primary1: #65b741;
+    --secondary1: #0ca9ff;
+}
+
+/* * , ::before , ::after{
+    outline: 1px solid red;
+} */
+
+.Home3-nav-pages button a{
+    color: black;
+}
+
+a , p {
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+body{
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    color: black;
+}
+
+p{
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    color: black;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+section , header , footer {
+    max-width: 3000px;
+    width: 100%;
+    margin: 0rem auto;
+}
+
+a{
+    color: black;
+}
+
+.page1-wrap{
+    overflow-x: hidden;
+}
+
+.page1-wrap .container{
+    max-width: 1403px;
+}
+
+.page1-wrap > .row>*{
+   padding: 0px;
+}
+
+.page1-wrap header{
+    max-width: 1720px;
+    width: 100%;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%) translateY(0%);
+    top: 30px;
+    height: 90px;
+    border-radius: 70px;
+    background-color: white;
+    z-index: 10;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 18px 0px;
+}
+
+.hide-nav {
+    transform: translateX(-50%) translateY(-200%) !important ;
+}
+
+.nav-options{
+    list-style: none;
+    display: flex;
+    padding: 0rem;
+    margin: 0rem;
+    gap: 50px;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    height: 60%;
+}
+
+.home{
+    position: relative ;
+}
+
+.home::before{
+    display: none;
+}
+
+.nav-options > li{
+    position: relative;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.nav-options a{
+    text-decoration: none;
+    color: black;
+}
+
+.page1-wrap .nav-options > li:hover > a{
+    color: var(--secondary);
+    font-weight: 500;
+}
+
+.logo-nav-appointment{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page1-wrap .header-btn{
+    max-width: 182px;
+    width: 30%;
+    display: grid;
+    place-content: center;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--primary);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition:  0.4s ease ;
+}
+
+.page1-wrap .header-btn:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid var(--primary);
+}
+
+.page1-wrap .home-banner-sec{
+    height: 1000px;
+    max-height: 967px;
+    background: url("../src/assets/home/banner-and-header/home-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.home-banner-cont-card{
+    position: absolute;
+    top: 370px;
+    width: 35%;
+    color: white;
+}
+
+.home-banner-cont-card > span{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+.home-banner-cont-card > span > span{
+    color: #ffa33c;
+}
+
+.home-banner-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 86px;
+    margin-bottom: 30px;
+}
+
+.home-banner-main-tit b{
+    color: var(--secondary);
+    font-weight: inherit;
+}
+
+.make-appointment-btn{
+    width: 236px;
+    height: 54px;
+    display: grid;
+    border-radius: 10px;
+    background-color: var(--primary);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    padding: 14px 25px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition:  0.4s ease ;
+    position: relative;
+}
+
+.make-appointment-btn:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid var(--primary);
+}
+
+.Call-Us-btn{
+    width: 145px;
+    height: 54px;
+    border-radius: 10px;
+    background-color: var(--secondary);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition:  0.4s ease ;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.Call-Us-btn > img{
+    width: 30px;
+    height: 30px;
+}
+
+span{
+    font-family: "Nunito";
+}
+
+.make-appointment-btn::before{
+  background: url("../src/assets/home/banner-and-header/make-appointment.svg");
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.Call-Us-btn:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid var(--primary);
+}
+
+.Call-Us-btn:hover img{
+    filter: brightness(0) saturate(100%) invert(17%) sepia(97%) saturate(6186%) hue-rotate(317deg) brightness(89%) contrast(95%);
+}
+
+.Appointment-nd-contact-btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.abt-us-sec-check-box{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0rem;
+    padding: 0rem;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 80%;
+    row-gap: 20px;
+}
+
+.abt-us-sec-check-box li{
+    position: relative;
+    padding: 0rem 0rem 0rem 30px;
+    width: 192px;
+    margin-right: 30px;
+}
+
+.abt-us-sec-check-box li::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url("../src/assets/home/about-us/abt-li-checks.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about-us-sec{
+    padding: 100px 0px;
+    background: url("../src/assets/home/about-us/about-us-sec-bg.svg");
+    background-repeat: no-repeat;
+    background-size: 536px 536px;
+    background-position: 110% 0px;
+}
+
+.abt-us-mini-tit{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 34px;
+    padding: 0rem 0rem 0rem 35px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.abt-us-mini-tit::before{
+    background: url("../src/assets/home/about-us/about-us-mini-tit-img.svg");
+    left: 0px;
+}
+
+.abt-us-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    margin-bottom: 30px;
+    width: 85%;
+}
+
+.abt-us-main-tit > b{
+    color: var(--secondary);
+    font-weight: inherit;
+}
+
+.subscribe-newsletter-tit > b{
+    color: var(--secondary);
+    font-weight: inherit;
+}
+
+.about-us-sec-main-img{
+    display: grid;
+    place-content: end;
+    align-content: start;
+    margin-left: -38px;
+    box-sizing: content-box;
+    width: 646px;
+    height: 637px;
+    width: 100%;
+}
+
+.about-us-sec-main-img img{
+    margin-left: -38px;
+}
+
+.about-us-sec-contant-home{
+    display: flex;
+    flex-direction: column;
+    margin-top: 82px;
+}
+
+.about-us-sec-contant-home > p{
+    margin-bottom: 30px;
+}
+
+.abt-us-sec-check-box > li{
+    flex-shrink: 0;
+}
+
+.abt-us-read-more-btn{
+    background-color: var(--primary);
+    width: 172px;
+    height: 54px;
+    display: block;
+    border-radius: 10px;
+    color: white;
+    text-align: start;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    padding: 14px 25px;
+    text-decoration: none;
+    transition: background-color 0.4s ease ;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.abt-us-read-more-btn::before{
+  background: url("../src/assets/home/banner-and-header/make-appointment.svg");
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.abt-us-read-more-btn:hover{
+    background-color: white;
+    border: 1px solid var(--primary);
+    color: black;
+}
+
+.get-every-pet-foods-btn{
+    position: relative;
+    width: 169px;
+    height: 54px;
+    background-color: var(--secondary);
+    color: white;
+    border-radius: 10px;
+    display: grid;
+    border: 1px solid transparent;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: start;
+    line-height: 26px;
+    transition: 0.4s ease;
+}
+
+.get-every-pet-foods-btn:hover{
+    background-color: white;
+    color: var(--secondary);
+    border: 1px solid var(--primary);
+}
+
+.get-every-pet-foods-btn:hover::before{
+    filter: brightness(0) saturate(100%) invert(26%) sepia(61%) saturate(7106%) hue-rotate(312deg) brightness(83%) contrast(106%);
+}
+
+.get-every-pet-foods-btn::before{
+    background: url("../src/assets/home/get-every-pet-foods/get-every-pet-foods-btn.svg");
+    right: 25px ;
+}
+
+.before::before ,
+.make-appointment-btn::before ,
+.abt-us-read-more-btn::before,
+.abt-us-mini-tit::before,
+.get-every-pet-foods-btn::before{
+    content: "";
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.get-every-pet-foods-sec .container{
+    max-width: 100%;
+}
+
+.get-every-pet-foods-sec .row>*{
+    padding: 0rem;
+}
+
+.get-every-pet-foods-main-tit{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    font-family: "Nunito";
+    margin-bottom: 30px;
+    
+}
+
+.get-every-pet-foods-main-tit > b{
+   color: #ffa33c;
+   font-weight: inherit;
+}
+
+.get-every-pet-foods-cont{
+    background-color: #35005c;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 138px 100px 128px ;
+    text-align: center;
+}
+
+.get-every-pet-foods-cont p{
+    margin-bottom: 30px;
+    color: #F1F1F1;
+}
+
+.get-every-pet-foods-img{
+    position: relative;
+    cursor: pointer;
+    height: 100%;
+}
+
+.get-every-pet-foods-img video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.get-every-pet-foods-img > .video-pause-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    cursor: pointer;
+} 
+
+.get-every-pet-foods-img > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.what-we-do-main-tit {
+   padding-top: 50px;
+   margin: 0px;
+}
+
+.our-groomers-main-tit{
+    margin-bottom: 77px;
+}
+
+.clients-feedback-main-tit1{
+    position: relative;
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    padding-top: 50px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+
+.clients-feedback-main-tit{
+    position: relative;
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    padding-top: 50px;
+    color: black;
+    margin-bottom: 80px;
+}
+
+.clients-feedback-sec .swiper-horizontal{
+   padding-bottom: 74px;
+}
+
+.what-we-do-main-tit, 
+.our-groomers-main-tit,
+.blog-section-main-tit{
+    position: relative;
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    font-size: 50px;
+    font-weight: 800;
+    padding-top: 50px;
+    line-height: 65px;
+    text-align: center;
+    color: black;
+}
+
+.blog-section-main-tit{
+    text-align: left;
+}
+
+.clients-feedback-tit-wraper{
+    width: fit-content;
+    margin: 0rem auto;
+    padding-top: 0rem;
+    text-align: center;
+}
+
+.blog-section-tit-wraper{
+    width: fit-content;
+    margin: 0rem auto;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.our-groomers-tit-wraper{
+    width: fit-content;
+    margin: 0rem auto;
+    text-align: center; 
+}
+
+.what-we-do-tit-wraper{
+    width: fit-content;
+    margin: 0rem auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog-section-tit-wraper{
+    max-width: 1300px;
+    width: 70%;
+}
+
+.home-blog-card-tit-wraper{
+    text-align: start;
+}
+
+.what-we-do-main-tit::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../src/assets/home/about-us/about-us-mini-tit-img.svg");
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.our-groomers-main-tit::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../src/assets/home/about-us/about-us-mini-tit-img.svg");
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.clients-feedback-main-tit1::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../src/assets/home/about-us/about-us-mini-tit-img.svg");
+    top: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.clients-feedback-main-tit::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../src/assets/home/about-us/about-us-mini-tit-img.svg");
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+   .blog-section-main-tit::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url("../src/assets/home/about-us/about-us-mini-tit-img.svg");
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.blog-section-main-tit::before{
+    left: 0%;
+}
+
+.what-we-do-cards{
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 15px 15px 20px 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.3s linear;
+}
+
+.what-we-do-cards:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 10px rgba(134, 134, 134, 0.331);
+}
+
+.what-we-do-cards img{
+    width: 100%;
+}
+
+.what-we-do-card-tit{
+    margin: 20px auto 15px;
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.what-we-do-card-tit:hover{
+    color: var(--secondary);
+}
+
+.what-we-do-cards .abt-us-read-more-btn{
+    margin: 0rem auto;
+}
+
+.what-we-do-main-tit b,
+.our-groomers-main-tit b, 
+.clients-feedback-main-tit b, 
+.clients-feedback-main-tit1 b, 
+.blog-section-main-tit b{
+    color: var(--secondary);
+    font-weight: inherit;
+}
+
+.what-we-do-sec{
+    padding: 100px 0rem;
+    position: relative;
+    z-index: 1;
+}
+
+.what-we-do-sec .container{
+  max-width: 1401px;
+  padding: 0px;
+}
+
+.what-we-do-sec::after{
+    width: 536px;
+    height: 536px;
+    background-image: url("../src/assets/home/what-we-do/what-we-do-bg2.svg");
+    top: 0px;
+    right: 0px;
+}
+
+.what-we-do-sec::before{
+    width: 536px;
+    height: 536px;
+    background-image: url("../src/assets/home/what-we-do/what-we-do-bg1.svg");
+    bottom: 0px;
+}
+
+.what-we-do-sec::before , .what-we-do-sec::after{
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.our-groomers-card{
+    text-align: center;
+}
+
+.our-groomers-card:hover .our-groomers-card-bg-img{
+    filter: brightness(0) saturate(100%) invert(13%) sepia(89%) saturate(4494%) hue-rotate(273deg) brightness(83%) contrast(93%);
+    transform: translate(-50% , -50%) rotate(30deg);
+}
+
+.person-positions , .groomers-names{
+    display: block;
+}
+
+.person-positions{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    color: var(--secondary);
+    margin: 56px 0px 15px;
+}
+
+.groomers-names{
+    font-family: "Nunito", serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 58px;
+    margin: 0px 0px 30px;
+}
+
+.our-groomers-sec{
+    padding: 100px 0px;
+    background-color: #f1f1f1;
+}
+
+.our-groomers-sec .container .row>*{
+    padding: 0px;
+}
+
+.our-groomers-card-main-img{
+    position: relative;
+    height: auto;
+    width: 100%;
+    height: auto;
+}
+
+.our-groomers-card-bg-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%) rotate(0deg);
+    border-radius: 50%;
+    z-index: 1;
+    object-fit: cover;
+    transition: transform 1s ease;
+}
+
+.groomers-social-profiles{
+    display: flex;
+    gap: 20px;
+    margin: 0rem auto;
+    justify-content: center;
+}
+
+.groomers-social-profiles a{
+    transition: 0.1s ease;
+}
+
+.groomers-social-profiles a:hover{
+    transform: scale(1.3);
+}
+
+.clients-feedback-sec{
+    padding: 100px 0rem;
+    background: url("../src/assets/home/clients-feedback/clients-feedback-bet-foot.svg");
+    background-position: 0px -60px;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 0px;
+}
+
+.blog-section-home .swiper-slide{
+     width: 447px;
+ }
+
+ .blog-section-home .swiper-slide{
+    height: 695px;
+    padding: 0px 15px !important;
+}
+
+.clients-feedback-sec .swiper-slide{
+    max-width: 100%;
+}
+.clients-feedback-sec  .swiper{
+  padding-bottom: 74px;
+}
+
+ .clients-feedback-sec .swiper-Slide-card{
+    height: 695px;
+    width: 100%;
+    background:url("../src/assets/home/clients-feedback/Clients-Feedback-bg-people.svg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.clients-feedback-sec .row>* {
+    padding: 0px;
+}
+
+.clients-feedback-sec .swiper-custom-container{
+    max-height: 695px;
+    overflow: visible;
+    background:url("../src/assets/home/clients-feedback/Clients-Feedback-bg.svg") ;
+    margin-bottom: 74px;
+
+}
+
+.clients-feedback-sec .swiper-Slide-inner-card{
+    width: 100%;
+    max-width:  492px;
+    height: 226px;
+    box-shadow: 0px 6px 30px 0px rgba(45, 44, 85, 0.1);
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    padding: 3rem 3rem 0rem ;
+    background: url("../src/assets/home/clients-feedback/Subtract.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130% 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 272px;
+}
+
+ .clients-feedback-sec .swiper-pagination-clickable .swiper-pagination-bullet{
+   margin: 0rem 10px;
+}
+
+.clients-feedback-sec .swiper-Slide-inner-card::before{
+    content: "";
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    background: url("../src/assets/home/clients-feedback/swiper-quotes.svg");
+    left: 20px;
+    top: 20px;
+}
+
+.swiper-Slide-inner-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.swiper-Slide-inner-img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-Slide-tit{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.clients-feedback-sec .swiper-pagination{
+    position: absolute;
+    bottom: 0px !important;
+}
+
+.clients-feedback-sec .swiper-pagination-clickable .swiper-pagination-bullet{
+    width: 25px;
+    height: 25px;
+    background-color: var(--primary) !important;
+}
+
+.subscribe-newsletter-tit{
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    padding-top: 50px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.subscribe-newsletter-tit::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../src/assets/home/about-us/about-us-mini-tit-img-white.svg");
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.subscribe-newsletter-tit-wraper{
+    width: 70%;
+    margin: 0rem auto;
+    text-align: center;
+}
+
+.subscribe-newsletter-sec{
+    background: url("../src/assets/home/subscribe-newsletter/Subscribe-Newsletter.png");
+    max-height: 442px;
+    height: 442px;
+    display: grid;
+    place-content: center;
+    color: rgb(255, 255, 255);
+    padding: 80px;
+}
+
+.subscribe-newsletter-input{
+    max-width: 640px;
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.subscribe-newsletter-input input{
+    width: 100%;
+    height: 72px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    display: block;
+    padding: 0px 200px 0px  61px ;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.subscribe-newsletter-mail{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.subscribe-newsletter-btn{
+    width: 165px;
+    height: 54px;
+    position: absolute;
+    right: 9px;
+    text-align: start;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    border: none;
+    padding: 14px 25px; 
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    background-color: var(--primary);
+    color: white;
+    transition: 0.4s ease;
+}
+
+.subscribe-newsletter-btn:hover{
+    background-color: var(--secondary);
+    color: white;
+}
+
+.subscribe-newsletter-btn::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../src/assets/home/subscribe-newsletter/Subscribe-Newsletter-btn.svg");
+    background-position: center;
+    background-size: contain;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.blog-section-home {
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.blog-section-home > .container{
+    max-width: 1441px;
+    overflow: hidden;
+}
+ 
+.swiper-wrap-home{
+    width: 1450px;
+}
+
+.blog-section-home .swiper-wrapper{
+    height: 523px;
+}
+
+.blog-swiper-card{
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    margin: 0rem auto;
+    width: 447px;
+    padding: 15px 15px 30px 15px;
+}
+
+.blog-swiper-card-img{
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+    height: 270px;
+}
+
+.blog-swiper-card-img img{
+    transition: 0.4s ease;
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.blog-swiper-card:hover .blog-swiper-card-img img{
+    transform: scale(1.1);
+}
+
+.blog-swiper-card-tit{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.4s ease;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.blog-swiper-card-tit:hover{
+    color: #da0c81;
+
+}
+
+.admin-nd-pet-care{
+    margin-bottom: 20px;
+    display: flex;
+    color: #000000;
+}
+
+.blog-swiper-card-read-more-btn{
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    color: var(--primary);
+    display: block;
+    text-decoration: none;
+    position: relative;
+    transition: 1s ease;
+}
+
+.admin{
+    border-right: 1px solid black;
+}
+
+.admin > a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.admin > a:hover{
+    color: var(--secondary);
+}
+
+.admin , .span-pet-care{
+    position: relative;
+    padding: 0px 30px;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.span-pet-care a{
+    text-decoration: none;
+    color: inherit;
+    transition: 0.4s ease;
+}
+
+.span-pet-care a:hover{
+    color: #da0c81;
+}
+
+.span-pet-care{
+    padding: 0px 30px;
+    margin-left: 10px;
+}
+
+.admin::before{
+    background: url("../src/assets/blog/Person.svg");
+
+}
+
+.admin::before , .span-pet-care::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.span-pet-care::before{
+    background: url("../src/assets/blog/Tag.svg");
+    left: 0px;
+}
+
+.blog-swiper-card-read-more-btn:hover{
+    color: var(--secondary);
+    width: fit-content;
+    padding-right: 150px;
+}
+
+.blog-swiper-card-read-more-btn:hover::before{
+    background: url("../src/assets/blog/blog-line-img.svg");
+    width: 30%;
+    height: 2px;
+    right: 60px;
+}
+
+.blog-swiper-card-read-more-btn::before , .blog-swiper-card-read-more-btn::after{
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: contain;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 1s ease;
+}
+
+.blog-swiper-card-read-more-btn::before{
+    background: url("../src/assets/blog/blog-line-img.svg");
+    width: 60%;
+    height: 2px;
+    right: 60px;
+}
+
+.blog-swiper-card-read-more-btn::after{
+    background: url("../src/assets/blog/arrow-right.svg");
+    width: 15px;
+    height: 15px;
+    right: 30px;
+}
+
+.footer-logo-ng-copy-rights-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+li{
+    font-family: "Nunito Sans";
+}
+
+.terms-conditions{
+    display: flex;
+    list-style: none;
+    column-gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0px;
+    border-bottom: 1px solid white;
+    width: 85%;
+    margin: 0rem auto;
+    position: relative;
+}
+
+.terms-conditions li a:hover{
+    color: #da0c81;
+}
+
+.terms-conditions li a{
+    transition: 0.4s ease;
+}
+
+.terms-conditions a{
+   color: white;
+   text-decoration: none;
+}
+
+.terms-conditions a:hover{
+    color: white;
+}
+
+.footer-contact-detail{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 0rem;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-contact-img{
+    flex-shrink: 0;
+}
+
+.footer-contact-detail > li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 0px;
+}
+
+.footer-contact-cont span{
+    color: #ffa33c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 10px;
+}
+
+.footer-contact-name{
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+}
+
+.footer-contact-name a{
+    transition: 0.4s ease;
+}
+
+.footer-contact-name a{
+    color: inherit;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.footer-contact-name a:hover{
+    color: #da0c81;
+}
+
+.contact-cont-and-social-media-links{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 85%;
+   margin: 0rem auto;
+   flex-wrap: wrap;
+}
+
+.social-media-links{
+    display: flex;
+    gap: 20px;
+}
+
+footer{
+    background: url("../src/assets/home/footer/foter-bg.svg");
+    padding: 80px 0rem;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.blog-section-home .row>*{
+    padding: 0px;
+}
+
+.blog-section-home .swiper{
+    overflow: visible;
+    position: relative;
+}
+
+.blog-section-home .swiper-button-prev{
+    position: absolute;
+    background-color: var(--secondary);
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    top: 0px;
+    transform: translate(2650%  , -61px);
+}
+
+.blog-section-home .swiper-button-next{
+    position: absolute;
+    background-color: var(--primary);
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    top: 0px;
+    transform: translate(-40%  , -61px);
+}
+
+.blog-section-home .swiper-button-prev:after, 
+.blog-section-home .swiper-button-next:after{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    display: grid;
+    place-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 15px;
+    color: white;
+}
+
+.Pets-Detail-Page-Know-more-contact{
+    padding: 100px 0px;
+    color: white;
+    background: url("../src/assets/home-3/home3-pet-detail-page/contact-sec-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    margin: 0px auto 0px;
+    color: black;
+}
+
+.Pets-Detail-Page-Know-more-contact input {
+    color: black;
+    background-color: #f1f1f1;
+}
+
+.Pets-Detail-Page-Know-more-contact textarea{
+    color: black;
+    background-color: #f1f1f1;
+}
+
+.home3-contact-us-map-embeded-code iframe{
+    width: 100%;
+    height: 662px;
+    border-radius: 30px;
+    margin: 100px 0px;
+}
+
+.PetsDetailPage-Knowmore-about-ul-checks > li > p{
+  margin: 0px;
+  font-size: 14px;
+}
+
+.PetsDetailPage-Knowmore-about-ul-checks > li > span{
+    color: rgba(255, 105, 0, 1);
+    font-size: 24px;
+    font-family: "Nunito", serif;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+.PetsDetailPage-Knowmore-about-ul-checks{
+    margin: 0px;
+    padding: 0px;
+}
+
+.PetsDetailPage-Knowmore-about-ul-checks > li{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 33px;
+   
+}
+
+.PetsDetailPage-Knowmore-about-ul-checks > li > img{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.13);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.PetsDetailPage-Knowmore-about-card-btn{
+    display: grid;
+    place-content: center;
+    border-radius: 30px 0px;
+    height: 68px;
+    background-color: #ff6900;
+    color: white;
+    font-family: "Nunito";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.PetsDetailPage-Knowmore-about-card-btn:hover{
+    background-color: white;
+    border: 1px solid #ff6900;
+    color: #ff6900;
+}
+
+.PetsDetailPage-Knowmore-about-card-tit{
+    margin: 30px 0px;
+    font-family: "Nunito";
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 58px;
+}
+
+.adopt-pet-img{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.Know-more-about-Berry-cont-main-tit{
+    font-family: "Nunito";
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+.Know-more-about-Berry-cont-main-tit b{
+    color: #ff6900;
+}
+
+.Know-more-about-Berry-cont-ul-checks{
+    padding: 0px;
+    list-style: none;
+}
+
+.Know-more-about-Berry-cont-ul-checks > li{
+    margin-bottom: 30px;
+}
+
+.Know-more-about-Berry-cont-ul-checks > li > h4{
+    position: relative;
+    padding-left: 70px;
+    font-family: "Nunito";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    margin-bottom: 20px;
+} 
+
+.Know-more-about-Berry-cont-ul-checks > li > h4::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url("../src/assets/home-3/home3-pet-detail-page/KnowmoreAboutPet-foot.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.PetsDetailPage-bottom-img img{
+    margin: 0px auto;
+    display: block;
+}
+
+.PetsDetailPage-bottom-img{
+    padding: 100px 0px;
+}
+
+.abt-us-sec-check-box{
+    font-family: "Nunito Sans", serif;
+}
+
+.copy-rights{
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.copy-rights b{
+    color: #da0c81;
+    transition: 0.4s ease;
+}
+
+.copy-rights b:hover{
+    color: white;
+}
+
+.copy-rights a{
+    text-decoration: none;
+}
+
+.footer-logo-ng-copy-rights-wrap::before , 
+.footer-logo-ng-copy-rights-wrap::after{
+    content: "";
+    position: absolute;
+}
+
+.footer-logo{
+    position: relative;
+    width: 300px;
+}
+
+.footer-logo img{
+    width: 100%;
+}
+
+.footer-logo-ng-copy-rights-wrap::before ,
+.footer-logo-ng-copy-rights-wrap::after{
+    content: "" ;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #ffffff;
+    transform: rotate(45deg);
+}
+
+.footer-logo-ng-copy-rights-wrap::before{
+    left: -3px;
+    bottom: -3px;
+}
+
+.footer-logo-ng-copy-rights-wrap::after{
+    right: -3px;
+    bottom: -3px;
+}
+
+.terms-conditions::before , .terms-conditions::after{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #ffffff;
+    transform: rotate(45deg);
+}
+
+.terms-conditions::before{
+    left: -3px;
+    bottom: -3px;
+}
+
+.terms-conditions::after{
+    right: -3px;
+    bottom: -3px;
+}
+
+.footer-logo::after{
+    bottom: 0px;
+}
+
+.Home3NavPages-list{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    gap: 20px;
+    z-index: 100;
+    visibility: hidden;
+    top: 100%;
+    text-align: center;
+    box-shadow: none;
+    border-radius: 10px;
+    transition: 0.4s ease;
+    opacity: 0;
+    width: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Home3-nav-pages{
+    position: relative;
+}
+
+.Home3-nav-pages a{
+    text-decoration: none;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.home3-privacy-policy a{
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+}
+
+.home3-privacy-policy a:hover{
+    color: white;
+}
+
+.page1-wrap  .Home3NavPages-list a{
+    color: black;
+}
+
+.page1-wrap  .Home3NavPages-list a:hover{
+    color: #da0c81;
+}
+
+.home3-blog-side-bar-recent-cards-last{
+    border: none !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+
+}
+
+@keyframes movingImg {
+    10%{
+       border-radius: 26% 74% 22% 78% / 31% 72% 28% 69% ;
+    }
+    50%{
+        border-radius: 28% 72% 0% 100% / 72% 49% 51% 28%  ;
+    }
+    70%{
+        border-radius: 68% 32% 72% 28% / 32% 58% 42% 68% ;
+    }
+    100%{
+        border-radius: 100% 0% 100% 0% / 0% 100% 0% 100% ;
+    }
+}
+
+.home1-hamburger-menu{
+    width: 40px;
+    height: 40px;
+    display: none;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.home1-mobile-nav{
+    display: none;
+}
+
+.main-logo1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.active {
+    color: #da0c81 !important;
+}
+
+.inner-home{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.back-to-top-btn-wrap{
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: none;
+    display: grid;
+    place-content: center;
+    box-shadow: 0px 0px 0px 0px rgb(239, 238, 238);
+    z-index: 100;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+    overflow: hidden;
+}
+
+.back-to-top-btn-wrap img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1.15);
+}
+
+.home-2-footer-logo-Subscribe-input{
+    width: 100%;
+}

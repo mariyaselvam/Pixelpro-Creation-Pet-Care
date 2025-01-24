@@ -1,0 +1,226 @@
+@media (max-width:600px){
+    .home2-banner-cont-waper{
+        width: 90%;
+    }
+    .home2-banner-main-tit{
+        font-family: "Nunito", serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+    }
+    .home2-banner-cont-waper p{
+        margin: 2rem 0rem;
+    }
+    .home2-banner-bg-img{
+        height: 703px;
+        padding-top: 140px;
+    }
+
+    .home2-pet-food-card{
+        margin-top: 100px;
+    }
+   
+    .home2-pet-food-btn{
+        width: auto;
+    }
+
+    .home2-SafeaAndGoodHands-cont-tit, 
+    .The-Best-Training-Your-cont-tit{
+        font-family: "Nunito", serif;
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .The-Best-Training-Your-cont-wrap{
+        padding: 1rem;
+    }
+
+    .What-Our-Customer-Say-swiper-card{
+        padding: 20px;
+    }
+
+    .What-Our-Customer-Say-swiper-profile-img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .What-Our-Customer-Say-img-tit, 
+    .Providing-the-Best-Service-sec-cont-tit{
+        font-family: "Nunito", serif;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 45px;
+    }
+    .Providing-the-Best-Service-ul-checks li{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home2-Meet-Our-Team-sec-card{
+        margin: 50px auto 0px;
+    }
+
+    .home2-Meet-Our-Team-card-social-links{
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+    
+    .home2-SafeaAndGoodHands-cont-small-card > li > h3{
+        font-size: 21px;
+        font-weight: 800;
+        line-height: 48px;
+        margin-bottom: 20px;
+    }
+
+    .The-Best-Training-Your-Pets-sec{
+        background-position: -1600px 0px;
+    }
+
+    .Providing-the-Best-Service-sec-btn{
+        margin: 0px auto;
+    }
+
+    .home2-pets-lives-cont-wrap{
+        padding: 4rem 0rem;
+    }
+
+    .home2-pets-lives-cont-wrap p{
+        text-align: center;
+    }
+
+
+    .What-Our-Customer-Say-img-tit{
+        margin: 2rem 0rem;
+    }
+
+    .copy-rights-nd-terms-nd-conditions{
+        flex-direction: column;
+        padding: 2rem 1rem;
+        height: auto;
+    }
+
+    .home-2-footer-sec{
+        padding: 80px 0px 220px;
+    }
+
+    .copy-rights-nd-terms-nd-conditions h4{
+        text-align: center;
+    }
+
+    .copy-rights-nd-terms-nd-conditions ul{
+        text-align: center;
+        margin: 1rem 0rem 0rem;
+    }
+
+    .home-2-footer-logo-Subscribe-input{
+        height: 30px;
+        padding: 1rem;
+    }
+
+    .Providing-the-Best-Service-sec-cont{
+        padding: 50px 30px;
+    }
+
+    .home2-pets-lives-main-tit{
+        font-family: "Nunito", serif;
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .home2-pets-lives-btn1{
+        font-size: 14px;
+        max-width: 179px;
+    }
+
+    .home2-pets-lives-btn-wrap{
+        margin: 0rem auto;
+        flex-direction: column;
+    }
+
+    .home2-pets-lives-btn{
+        width: 169px;
+    }
+
+    .What-Our-Customer-Say-sec .swiper-button-next{
+        transform: translate(-70px  , 400%);
+    }
+    
+    .What-Our-Customer-Say-sec .swiper-button-prev{
+        transform: translate(70px  , 400%);
+    }
+
+    .home1-mobile-nav > li a:hover{
+           color: black;
+    }
+
+    .home2-banner-sec{
+        padding: 0px 10px; 
+    }
+
+    .home2-Meet-Our-Team-sec-card-img{
+        height: auto;
+    }
+
+    .home2-SafeaAndGoodHands-cont-btn{
+        margin: 0px auto;
+    }
+
+    .The-Best-Training-Your-Pets-sec{
+        width: 95%;
+    }
+
+    .What-Our-Customer-Say-img-tit{
+        text-align: center;
+    }
+
+    .About-DC-Care-sec{
+        padding: 100px 0px;
+    }
+
+    .What-Our-Customer-Say-swiper-wraper{
+        width: 95%;
+        margin: 0px auto;
+    }
+
+    .What-Our-Customer-Say-sec .swiper{
+        height: 490px;
+    }
+
+    .home2-Meet-Our-Team-sec-card-img{
+        height: 335px;
+    }
+
+    .home2-Meet-Our-Team-card-social-links img{
+         width: 37px;
+    }
+
+    .home2-Meet-Our-Team-sec-card span{
+        margin-bottom: 10px;
+    }
+
+    .home2-Meet-Our-Team-main-tit{
+        margin: 0px auto 30px;
+    } 
+
+    .home2-pet-food-tit{
+        margin-bottom: 10px;
+    }
+
+    .What-Our-Customer-Say-swiper-top{
+        margin-bottom: 10px;
+    }
+
+    .What-Our-Customer-Say-swiper-card > p{
+        margin-bottom: 10px;
+    }
+
+
+    
+
+}

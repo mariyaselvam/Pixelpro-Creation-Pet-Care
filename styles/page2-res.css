@@ -1,0 +1,70 @@
+@media (max-width:1000px){
+    .page2-wrap .header-btn{
+        display: none;
+    }
+    .blog-swiper-card-tit{
+        font-family: "Nunito", serif;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 28px;
+        margin: 10px 0px;
+    }
+    .blog-section-home .swiper-button-prev{
+        transform: translate(1700%, -70px);
+    }
+    .home1-hamburger-menu2{
+        position: absolute;
+         right: 20px;
+         z-index: 10;
+         top: 10px;
+         width: 30px;
+    }
+    .home1-hamburger-menu2 img{
+        width: 15px;
+    }
+
+
+}
+
+
+@media (max-width:1500px){
+    .What-Our-Customer-Say-img{
+         width: 70%;
+         margin: 0rem auto;
+     }
+
+    .home2-SafeaAndGoodHands-main-img img{
+         position: relative;
+         width: 100%;
+    }
+
+    .home2-SafeaAndGoodHands-main-img{
+        width: 70%;
+        margin: 0rem auto;
+    }
+
+    .What-Our-Customer-Say-swiper-wraper{
+        width: max-content;
+    }
+
+
+    .admin-nd-pet-care{
+        flex-direction: column;
+    }
+    .span-pet-care{
+        border: none;
+        padding: 0px 0px 0px 30px;
+    }
+    .span-pet-care::before{
+        left: 0px;
+    }
+    .blog-section-home .swiper-button-prev{
+        transform: translate(2400%, -70px);
+    }
+    .What-Our-Customer-Say-sec .swiper-button-next{
+        transform: translate(-150px, 400%);
+    }
+    .What-Our-Customer-Say-sec .swiper-button-prev{
+        transform: translate(150px, 400%);
+    }
+}

@@ -1,0 +1,1006 @@
+/* :root{
+    --primary:#65b741;
+    --secondary: #0ca9ff;
+} */
+
+.page2-wrap header .container{
+   max-width: 1399px;
+}
+
+.page2-wrap .Home3NavPages-list a{
+    color: black;
+}
+
+.page2-wrap header{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    top: 0px;
+    height: 90px;
+    display: grid;
+    display: flex;
+    align-items: center;
+    max-width: 2000px;
+    z-index: 10;
+    background-color: white;
+    transition: 0.3s ease;
+    padding: 0.5rem 0rem;
+}
+
+p{
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+a:hover{
+  color: black;    
+}
+
+body{
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    color: black;
+}
+
+.page2-wrap .header-btn{
+    width: 137px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #65b741;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    color: white;
+    text-decoration: none;
+    border: background-color 1px solid transparent;
+    transition:  0.4s ease ;
+}
+
+.page2-wrap .header-btn:hover{
+    background-color: #0ca9ff;
+    color: white;
+}
+
+.page2-wrap  .nav-options a:hover{
+    color: #65b741;
+}
+
+.home2-banner-sec{
+    /* background: url("../src/assets/home-2/banner/banner-img.png"); */
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 90px auto 0rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    position: relative;
+    padding: 0px 30px;
+}
+
+.home2-banner-sec .row>*{
+    padding: 0px;
+}
+
+.home2-banner-sec .container{
+   max-width: 100%;
+}
+
+.The-Best-Training-Your-cont-tit{
+    max-width: 80%;
+    margin-bottom: 30px;
+}
+
+.Providing-the-Best-Service-sec-cont-tit{
+    margin-bottom: 30px;
+}
+
+.home2-banner-main-tit , 
+.home2-pets-lives-main-tit , 
+.home2-SafeaAndGoodHands-cont-tit , 
+.The-Best-Training-Your-cont-tit,
+.Providing-the-Best-Service-sec-cont-tit , 
+.home2-Meet-Our-Team-main-tit{
+    position: relative;
+}
+
+.home2-banner-main-tit::before , 
+.home2-pets-lives-main-tit::before , 
+.home2-SafeaAndGoodHands-cont-tit::before , 
+.The-Best-Training-Your-cont-tit::before ,
+.Providing-the-Best-Service-sec-cont-tit::before,
+.home2-Meet-Our-Team-main-tit::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -30px;
+    left: -30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url("../src/assets/home-2/banner/main-tit-before.svg");
+}
+
+.home2-banner-main-tit::before{
+    top: -30px;
+    left: 23%;
+}
+
+.home2-banner-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 86px;
+    margin-bottom: 30px;
+}
+
+.home2-banner-cont-waper p{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.home2-banner-main-tit b{
+    color: rgba(12, 169, 255, 1);
+}
+
+.home2-banner-cont-waper{
+    border-radius: 30px;
+    text-align: center;
+    max-width: 686px;
+    margin: 0rem auto;
+    position: relative;
+    color: white ;
+}
+
+.home2-banner-bg-img{
+    background: url("../src/assets/home-2/banner/banner-img.png");
+    border-radius: 30px;
+    padding-top: 241px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 843px;
+}
+
+.home2-banner-btn{
+    width: 170px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+    background-color: #65b741;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    color: white;
+    padding: 1rem 3rem 1rem 1rem;
+    text-decoration: none;
+    border: background-color 1px solid transparent;
+    transition:  0.4s ease;
+    margin: 0rem auto;
+    position: relative;
+}
+
+.home2-banner-btn::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background: url("../src/assets/home-2/header/home2-banner-call-icon.svg");
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+.home2-banner-btn:hover{
+    background-color: #0ca9ff;
+    color: white;
+}
+
+.home2-pet-food-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home2-pet-food-btn{
+    width: 166px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+    background-color: #65b741;
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-decoration: none;
+    margin: 0rem auto;
+    position: relative;
+    transition: background-color 0.4s ease ;
+}
+
+.home2-pet-food-btn:hover{
+    background-color: #0ca9ff;
+    color: white;
+}
+
+/* .home2-pet-food-btn::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: url("../src/assets/home-2/pet-food-sec/pet-food-btn.svg");
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+
+.home2-pet-food-tit{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.home2-pet-food-sec{
+    padding: 120px 0px;
+}
+
+.home2-pet-food-sec .container{
+   max-width: 1398px;
+}
+
+.home2-pets-lives-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    margin-bottom: 30px;
+}
+
+.home2-pets-lives-main-tit b{
+    color: #0ca9ff;
+    font-weight: inherit;
+}
+
+.home2-pets-lives-cont-wrap{
+    display: flex;
+    flex-direction: column;
+    padding: 146.5px 0px;
+}
+
+.home2-pets-lives-cont-wrap > p{
+    margin-bottom: 30px;
+}
+
+.home2-pets-lives-sec{
+    width: 98%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+.home2-pets-lives-sec > .container{
+    max-width: 1400px;
+}
+
+.home2-pets-lives-btn{
+    width: 139px;
+    height: 50px;
+    background-color: #65b741;
+    color: white;
+    border-radius: 10px;
+    display: grid;
+    place-content: center;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-decoration: none;
+    transition: background-color 0.4s ease ;
+}
+
+.home2-pets-lives-btn1{
+    width: 214px;
+    max-width: 40%;
+    height: 50px;
+    background-color: white;
+    color: #65b741;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-decoration: none;
+    transition: background-color 0.4s ease ;
+    border: 2px solid #65b741;
+    position: relative;
+}
+
+.home2-pets-lives-btn1:hover img{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(94%) saturate(0%) hue-rotate(329deg) brightness(108%) contrast(108%);
+}
+
+.home2-pets-lives-btn:hover{
+    color: white;
+    background-color: #0ca9ff;
+}
+
+.home2-pets-lives-btn1:hover{
+    color: white;
+    background-color: #65b741;
+    border: none;
+}
+
+.home2-Meet-Our-Team-sec-card-img{
+    -webkit-mask-image: url("../src/assets/common/shape-5.svg");
+    mask-image: url("../src/assets/common/shape-5.svg");
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    height: 454px;
+    margin-bottom: 20px;
+    overflow: hidden
+}
+
+.home2-Meet-Our-Team-sec-card-img img{
+    transition: 0.4s ease
+}
+
+.home2-Meet-Our-Team-sec-card-img img:hover{
+    transform: scale(1.1);
+}
+
+.home2-Meet-Our-Team-sec-card-img1 > img{
+    width:190%;
+}
+
+.home2-pets-lives-btn-wrap{
+    display: flex;
+    gap: 30px;
+}
+
+.home2-SafeaAndGoodHands-sec{
+    padding: 100px 0px 200px;
+}
+
+.home2-SafeaAndGoodHands-sec > .container{
+    max-width: 1400px;
+}
+
+.home2-SafeaAndGoodHands-cont-btn , 
+.Providing-the-Best-Service-sec-btn{
+    width: 139px;
+    height: 50px;
+    background-color: #65b741;
+    color: white;
+    border-radius: 10px;
+    display: grid;
+    place-content: center;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-decoration: none;
+    transition: background-color 0.4s ease ;
+}
+
+.home2-SafeaAndGoodHands-cont-btn:hover , 
+.Providing-the-Best-Service-sec-btn:hover{
+    background-color: #0ca9ff;
+    color: white;
+}
+
+.home2-SafeaAndGoodHands-cont-small-card{
+    list-style: none;
+    padding: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0px 0px 0px;
+    gap: 30px;
+}
+
+.home2-SafeaAndGoodHands-cont-tit{
+    margin-bottom: 30px;
+}
+
+.home2-SafeaAndGoodHands-cont-tit , 
+.The-Best-Training-Your-cont-tit{
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+.home2-SafeaAndGoodHands-cont-tit > b , 
+.The-Best-Training-Your-cont-tit > b{
+    color: #0ca9ff;
+    font-weight: inherit;
+}
+
+.home2-SafeaAndGoodHands-main-img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.home2-SafeaAndGoodHands-main-img > img{
+    position: absolute;
+    right: 0px;
+    width: 200%;
+    max-width: 110%;
+}
+
+.home2-SafeaAndGoodHands-cont{
+    padding: 63px 30px 0px 30px;
+}
+
+.home2-SafeaAndGoodHands-cont-small-card > li > h3{
+    position: relative;
+    padding-left: 70px;
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.home2-SafeaAndGoodHands-cont-small-card > li > h3::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url("../src/assets/home-2/SafeaAndGoodHands/home2-SafeaAndGoodHands-tit.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+}
+
+.home2-SafeaAndGoodHands-cont-small-card > *{
+    flex-shrink: 0;
+    flex-basis: 47.5%;
+}
+
+.The-Best-Training-Your-Pets-sec{
+    width: 98%;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    position: relative;
+    padding: 100px 0px;
+    background: url("../src/assets/home-2/TheBestTrainingYourPets/TheBestTrainingYourPets-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.The-Best-Training-Your-Pets-sec > .container {
+    max-width: 1400px;
+}
+
+.The-Best-Training-Your-Pets-sec .row>*{
+    padding: 0px;
+}
+
+.The-Best-Training-Your-Pets-sec p{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.What-Our-Customer-Say-img-tit{
+    margin-bottom: 30px;
+}
+
+.What-Our-Customer-Say-img-tit , 
+.Providing-the-Best-Service-sec-cont-tit{
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+.What-Our-Customer-Say-cont{
+    margin-top: 55px;
+}
+
+.What-Our-Customer-Say-cont .swiper-slide{
+    max-width: 100%;
+}
+
+.What-Our-Customer-Say-sec{
+    padding: 100px 0px;
+}
+
+.What-Our-Customer-Say-sec > .container .row>*{
+    padding: 0px;
+}
+
+.What-Our-Customer-Say-sec .swiper{
+    overflow: visible;
+    overflow-x: hidden;
+    height: 450px;
+}
+
+.What-Our-Customer-Say-sec .container{
+    max-width: 1400px;
+}
+
+.What-Our-Customer-Say-sec .swiper-button-next{
+    transform: translate(-270px  , 350%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #65b741;
+    background-color: #65b741;
+}
+
+.What-Our-Customer-Say-sec .swiper-button-prev{
+    transform: translate(270px  , 350%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #65b741;
+    background-color: #65b741;
+}
+
+.What-Our-Customer-Say-sec .swiper-button-prev:after, 
+.swiper-rtl .swiper-button-next:after{
+    font-size: 20px;
+    color: #65b741;
+}
+
+.What-Our-Customer-Say-sec .swiper-button-next:after {
+    font-size: 20px; 
+    color: #ffffff;
+}
+
+.What-Our-Customer-Say-sec .swiper-button-prev:after{
+    font-size: 20px; 
+    color: #ffffff;
+}
+ 
+
+.home2-Meet-Our-Team-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    width: fit-content;
+    margin: 0rem auto 80px;
+    text-align: center;
+}
+
+.Providing-the-Best-Service-sec-cont-tit b{
+    color: #0ca9ff;
+}
+
+.What-Our-Customer-Say-img-tit > b , 
+.home2-Meet-Our-Team-main-tit > b {
+    color: #ff6900;
+}
+
+.Providing-the-Best-Service-sec{
+    width: 98%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    position: relative;
+    padding: 100px 0rem;
+    background: url("../src/assets/home-2/Providing-the-Best-Service/Providing-the-Best-Service-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.Providing-the-Best-Service-sec > .container{
+    max-width: 1400px;
+}
+
+.Providing-the-Best-Service-ul-checks{
+    padding: 0rem;
+    list-style: none;
+}
+
+.Providing-the-Best-Service-ul-checks li{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.Providing-the-Best-Service-ul-checks li img{
+    object-fit: contain;
+    width: 110px;
+    height: 90px;
+}
+
+.Providing-the-Best-Service-sec p{
+    color: white;
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.Providing-the-Best-Service-sec-cont{
+    background-color: #00000099;
+    padding: 56px 30px 30px 60px;
+    border-radius: 30px;
+    max-width: 807px;
+    margin:0px 0px 4px auto;
+    
+
+
+}
+
+.Providing-the-Best-Service-sec-cont p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.Providing-the-Best-Service-sec-cont > p{
+    margin: 0px 0px 30px;
+
+}
+
+.home2-Meet-Our-Team-card-social-links{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0rem auto;
+}
+
+.home2-Meet-Our-Team-card-social-links a{
+   transition: 0.2s ease;
+}
+
+.home2-Meet-Our-Team-card-social-links a:hover{
+    transform: scale(1.2);
+}
+
+.home2-Meet-Our-Team-sec-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home2-Meet-Our-Team-sec-card > span{
+    margin-bottom: 20px;
+}
+
+.home2-Meet-Our-Team-sec-card  span{
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    color: #ff6900;
+}
+
+.home2-Meet-Our-Team-name{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+
+.home2-Meet-Our-Team-sec{
+    padding: 100px 0rem;
+}
+
+.home2-Meet-Our-Team-sec .container{
+    max-width: 1400px;
+}
+
+.home-2-footer-logo-pages-lu-checks  , 
+.home-2-footer-logo-Utility-lu-checks{
+    padding: 0rem;
+    list-style: none;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+}
+
+.home-2-footer-logo{
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+.home-2-footer-logo img{
+   height: 100%;
+}
+
+.home-2-footer-logo-pages-lu-checks li , 
+.home-2-footer-logo-Utility-lu-checks li {
+    margin-bottom: 10px;
+}
+
+.home-2-footer-logo-Subscribe-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-2-footer-logo-pages-tit , 
+.home-2-footer-logo-Utility-tit  , 
+.home-2-footer-logo-Subscribe-tit{
+    margin-bottom: 30px;
+
+}
+
+.home-2-footer-sec{
+    padding: 100px 0px;
+    background-color: #00376b;
+    color: white;
+    position: relative;
+}
+
+.home-2-footer-sec a{
+    transition: 0.4s ease;
+}
+
+.copy-rights-nd-terms-nd-conditions a:hover{
+    color: white;
+}
+
+.copy-rights-nd-terms-nd-conditions h4 a{
+    color: #65b741;
+    font-weight: 500;
+}
+
+.copy-rights-nd-terms-nd-conditions h4 a:hover{
+    color: #0ca9ff;
+}
+
+.home-2-footer-sec .row>*{}
+
+.home-2-footer-sec .container{
+    max-width: 1208px;
+}
+
+.home-2-footer-sec p{
+    color: white;
+}
+
+.home-2-footer-logo-Subscribe-input{
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #999999;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18.4px;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.home-2-footer-btn{
+    width: 128px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #65b741;
+    display: block;
+    display: grid;
+    place-content: center;
+    color: white;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-decoration: none;
+    transition: 0.4s ease;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.home-2-footer-btn:hover{
+    color: white;
+    background-color: #0ca9ff;
+}
+
+.copy-rights-nd-terms-nd-conditions{
+    background-color: #001e3a;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    align-items: center;
+    justify-content: space-around;
+    height: 65px;
+    color: #bababf;
+}
+
+.copy-rights-nd-terms-nd-conditions a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.copy-rights-nd-terms-nd-conditions > ul > li{
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.copy-rights-nd-terms-nd-conditions h4{
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    height: fit-content;
+    margin: 0px;
+}
+
+.copy-rights-nd-terms-nd-conditions ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.home2-social-media-f-wrap-nd-subcribe{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.home2-social-media-f-wrap{
+    display: flex;
+    gap: 27px;
+}
+
+
+.home2-social-media-f-wrap a{
+    transition: 0.2s ease;
+}
+
+.home2-social-media-f-wrap a:hover{
+    transform: scale(1.3);
+}
+
+
+.home-2-footer-logo-Utility-lu-checks a{
+  text-decoration: none;
+  color: #c9c2c2;
+}
+
+.home-2-footer-logo-Utility-lu-checks a:hover{
+    color: white;
+}
+
+.home2-pet-food-img{
+    padding-bottom: 20px;
+    transition: 1s;
+}
+
+.home2-pet-food-tit{
+    margin-bottom: 30px;
+}
+
+.home2-pet-food-img1:hover{
+    animation: topBottom 3s linear infinite alternate;
+}
+
+.home2-pet-food-img2:hover{
+    animation: topBottom 7s linear infinite alternate;
+}
+
+.home2-pet-food-img3:hover{
+    animation: topBottom 4s linear infinite alternate;
+}
+
+.home2-pet-food-img4:hover{
+    animation: topBottom 10s linear infinite alternate;
+}
+
+.active1{
+    color: #ff6900 !important;
+}
+
+.home-2-footer-logo-pages-lu-checks a{
+    color: #c9c2c2;
+    text-decoration: none;
+}
+
+.home-2-footer-logo-pages-lu-checks a:hover{
+    color: #fff;
+}
+
+@keyframes topBottom {
+    from{
+        transform: translateY(-20px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+
+.home2-pets-lives-main-img{
+    height: 100%;
+    display: grid;
+    place-content: end;
+    margin: 0rem auto;
+}
+
+.home2-pets-lives-main-img > img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+body .logo-nav-appointment{
+    padding: 0px;
+}
+
+.The-Best-Training-Your-cont-wrap{
+    padding: 28px 0px 0px;
+}
+
+.What-Our-Customer-Say-swiper-profile-img{
+    width: 106px;
+    height: 106px;
+}
+
+    
+.What-Our-Customer-Say-swiper-name{
+    margin-bottom: 2.33px;
+}
+
+.What-Our-Customer-Say-swiper-top{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.What-Our-Customer-Say-swiper-position{
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+}
+
+.What-Our-Customer-Say-swiper-card > p{
+    margin-bottom: 30px;
+}
+
+.What-Our-Customer-Say-swiper-card *{
+    color: white;
+}
+
+.What-Our-Customer-Say-swiper-card > img{
+    max-width: 209px;
+    height: 39px;
+}
+
+.What-Our-Customer-Say-swiper-card{
+    max-width: 687px;
+}
